@@ -1,0 +1,29 @@
+p {
+    color:greenyellow;
+    font-size: 48px;
+    border: 6px solid rgb(120, 0, 190, 0.5);
+    box-shadow: 21px 24px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 21px 24px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 21px 24px 5px 0px rgba(0,0,0,0.75);
+}
+
+header, footer {
+    background-color: rgb(120, 0, 190);
+}
+
+header > h2 {
+    color: red;
+}
+
+header > h1 {
+    color: white;
+    font-size: 150px;
+}
+
+.mana-klase {
+    background-color: orangered;
+}
+
+#MansId2 {
+    font-size: 200px;
+}

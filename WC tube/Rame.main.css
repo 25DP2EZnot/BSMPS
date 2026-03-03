@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+* {
+    color: red;
+    font-family: "Merienda", cursive;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+header nav {
+    display: flex;
+    gap: 40px;
+    padding-right: 10%;
+}
+
+header nav a {
+    font-size: 32px;
+}
+
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+main article {
+    padding: 5%;
+    background-color: gainsboro;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-inline: 0px;
+}
+
+main .MANU figure img, .FOTOS figure img {
+    display: inline-block;
+}
+
+
+
+.ORDER {
+    text-align: center;
+}
+
+.ORDER h1 {
+    font-size: xx-large;
+}
+
+.ORDER button {
+    height: 75px;
+    width: 350px;
+    font-size: 32px;
+    border-radius: 10px;
+}
+
+
+
+.MANU figure {
+    padding-left: 5%;
+}
+
+.MANU figure img {
+    width: 30%;
+    height: 280px;
+        
+}
+
+.FOTOS figure img {
+    width: 33%;
+    height: 280px;
+}
+
+
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.articles article {
+    width: 48%;
+}
+
+
+
+.CONTACT div {
+    display: flex;
+    flex-direction: row
+}
+
+.CONTACT div a {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+
+footer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 5px;
+    background-color: gray;
+}
+
+footer h1 {
+    color: black;
+}

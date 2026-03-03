@@ -1,0 +1,16 @@
+    <main>
+
+        <aside class="B1">
+            <h1>Multi <br> Pasaules <br> Vēstnieks</h1>
+            <ul>
+                <li>neredzamā cepure</li>
+            </ul>
+        </aside>
+
+        <article class="A1">
+            <h1>Multi Pasaules Vēstnesis <br> Kosmiskais datums: 13.797.8-9465.401.2.0.2.6.1.2.2.1.1.33.19 <br> Neredzamā cepure, folks ir šokā!</h2>
+            <img src="IMG_HOME/Artic1.png" alt="Man with a inwisable heat in beg, and with cat-slug">
+            <p>Anonīmais folks, no Parteliādas, ziņo: Esot pasūtījis pie burvju drānu šuvēja neredzamības cepuri, bet pasta pūķis atnesis neredzamo cepuri. Neredzamos tomēr taustāmos pierādījumus folks sniedza parādot savu neredzamo cepuri uzaicinātajam ciklopam, kurš teica ka cepure ne tikia nav ar nekādiem vilcēja redzamības mainošiem šuvumiem, bet ir sarkana un ar piktīnisku toņu nokrāsu. Fokls vēlējās atrast burvju drānu šuvēju, bet gan šuvējs gan tā veikals, jau kā diennakti ir aizskrējušiun vai aizlidojuši, tā veiklas bija <i>"Aedificatio cum cruribus avium"</i> anonīmais folks vēlējās palikt anonīms, bet bija ar mieru iegūt portretu, tikai ar nosacījumu ka uzvikls maisu virsū galvai, gleznas elementu izveidoja mūsu korespondnts Maindflejers - Als Ijanakoviks. (Ignorējiet gliemež-kaķi tas netīšām tika kadrā.)</p>
+        </article>
+
+    </main>
