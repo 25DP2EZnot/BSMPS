@@ -1,93 +1,161 @@
-/* BODY */
-body {
-  margin: 0;
-  height: 100vh;
-  display: grid;
-  place-items: center;
-  background-image: url(IMG/cosmium.png);
-  background-size: 200px;
+body{
+  margin:0;
+  height:100vh;
+  background-image:url("IMG/cosmium.png");
+  background-size:200px;
+  background-repeat:repeat;
 }
 
-/* SCENE */
-.scene {
-  position: relative;
-  width: 600px;
-  height: 400px;
-  overflow: visible;
-}
 
-/* LAND */
-.land {
-  position: absolute;
-  bottom: -225px;
+
+body img, a {
+  position: fixed;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
-  width: 130%;
-  z-index: 1;
 }
 
-/* HIDDEN TOGGLE */
-#houseToggle {
-  display: none;
+
+
+.land {
+  width: 900px;
+  height: auto;
+  top: 40%;
+  left: 25%;
 }
 
-/* HOUSE WRAPPER — LOWER and BASE SIZE */
-.house-wrap {
-  position: absolute;
-  bottom: -500px;               /* lower the house */
-  left: 40%;
-  transform: translateX(-50%) scale(1.25); /* base bigger size */
-  transform-origin: bottom center;         /* grows upward */
-  transition: transform 0.25s ease;
-  z-index: 3;
-  cursor: pointer;
+
+
+body div img, a {
+  position: fixed;
+  top: 15%;
+  left: 30%;
+  width: 520px;
+  height: auto;
 }
 
-/* Hover = slightly bigger */
-.house-wrap:hover {
-  transform: translateX(-50%) scale(1.32);
+.house1{
+  left: 21.95%;
+  opacity:0;
+  transition:0.5s;
 }
 
-/* Click = bigger house2 */
-#houseToggle:checked + .house-wrap {
-  transform: translateX(-50%) scale(1.38);
+.house-wrap:hover .house1{
+  opacity:1;
+  transform:scale(1.01);
 }
 
-/* HOUSE IMAGES */
-.house {
-  position: absolute;
-  transition: opacity 0.2s ease;
+
+
+
+.greenhouse img {
+  width: 300px;
+  height: auto;
+  top: 30%;
+  left: 52%;
+  transition: 0.6s;
 }
 
-/* Default house */
-.house1 {
+.greenhouse img:hover {
+  scale: 1.01;
+  transition: 0.5s;
+  opacity: 0.9;
+  filter: hue-rotate(90deg);
+}
+
+
+
+.becground {
+  top: 3%;
+  left: 11%;
+  width: 1500px;
+  height: 860px;
+}
+
+.bd {
+  left: 15%;
+  top: 38%;
+}
+
+.TVv {
+  scale: 0.3;
+  top: 30%;
+  left: 49.5%;
+}
+
+.CDssnuts {
+  scale: 0.9;
+  top: 62%;
+  left: 72.5%;
+}
+
+
+.vide {
+  scale: 0.38;
+  top: 24.25%;
+  left: 58.5%;
+  opacity: 0;
+  transition: 1s;
+}
+
+.TVv:hover + .vide {
+  transition: 0.3s;
   opacity: 1;
 }
 
-/* Bigger house2 image */
-.house2 {
-  opacity: 0;
+.vide img:hover {
+  scale: 1.01;
+  transition: 0.5s;
+  opacity: 0.9;
+  filter: hue-rotate(90deg);
 }
 
-/* Swap images on click */
-#houseToggle:checked + .house-wrap .house1 {
-  opacity: 0;
-}
 
-#houseToggle:checked + .house-wrap .house2 {
-  opacity: 1;
-}
 
-/* GREENHOUSE */
-.greenhouse {
+body .lefto, .raito, .perkš, .Nazad {
+  width: 200px;
+  height: 800px;
+  top: 50px;
+  background-color: aliceblue;
   position: absolute;
-  bottom: 90px;
-  left: 42%;
-  z-index: 2;
-  cursor: pointer;
-  transition: transform 0.2s ease;
 }
 
-.greenhouse:hover {
-  transform: scale(1.05);
+.lefto {
+  transition: 0.3s;
+  opacity: 0.1;
+}
+
+.raito {
+  transition: 0.3s;
+  opacity: 0.1;
+}
+
+.perkš {
+  transition: 0.3s;
+  opacity: 0.1;
+}
+.Nazad {
+  transition: 0.3s;
+  opacity: 0.1;
+}
+
+
+
+.lefto:hover {
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+.raito:hover {
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+.perkš:hover {
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+.Nazad:hover {
+  transition: 0.3s;
+  opacity: 0.5;
 }
