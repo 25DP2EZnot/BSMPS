@@ -4,14 +4,15 @@ body{
   background-image:url("IMG/cosmium.png");
   background-size:200px;
   background-repeat:repeat;
+  position: absolute;
 }
 
 
 
 body img, a {
   position: fixed;
-  top: 50%;
-  left: 50%;
+  top: 41%;
+  left: 36%;
 }
 
 
@@ -79,20 +80,26 @@ body div img, a {
 .TVv {
   scale: 0.3;
   top: 30%;
-  left: 49.5%;
+  left: 48.5%;
 }
 
 .CDssnuts {
   scale: 0.9;
   top: 62%;
-  left: 72.5%;
+  left: 57.5%;
 }
 
+.rEMOUTUS {
+  width: 80px;
+  height: auto;
+  top: 54%;
+  left: 27%;
+}
 
-.vide {
+.vide, .cH {
   scale: 0.38;
-  top: 24.25%;
-  left: 58.5%;
+  top: 36.25%;
+  left: 52%;
   opacity: 0;
   transition: 1s;
 }
@@ -102,11 +109,22 @@ body div img, a {
   opacity: 1;
 }
 
+.vide:hover {
+  transition: 0.3s;
+  opacity: 1;
+}
+
 .vide img:hover {
   scale: 1.01;
   transition: 0.5s;
   opacity: 0.9;
   filter: hue-rotate(90deg);
+}
+
+.Waining_vanila{
+  position: absolute;
+  left: 16%;
+  top: 28%;
 }
 
 
@@ -158,4 +176,24 @@ body .lefto, .raito, .perkš, .Nazad {
 .Nazad:hover {
   transition: 0.3s;
   opacity: 0.5;
+}
+
+.skpV, .Gld, .skpB {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  top: 115px;
+  left: 500px;
+}
+
+.skpB {
+  left: 1150px;
+  top: 90px;
+
+}
+
+.Gld {
+  left: 180px;
+  top: 215px;
+  width: 400px;
 }
