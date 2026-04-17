@@ -193,9 +193,10 @@ body .lefto, .raito, .perkš, .Nazad {
 }
 
 .Gld {
-  left: 180px;
-  top: 215px;
-  width: 400px;
+  left: 110px;
+  top: 196px;
+  width: 490px;
+  height: 400px;
 }
 
 .MLa {
@@ -203,4 +204,122 @@ body .lefto, .raito, .perkš, .Nazad {
   top: 27px;
   width: 592px;
   height: auto;
+}
+
+
+
+
+.Skp{
+  top: 170px;
+  left: 250px;
+  scale: 0.8;
+}
+
+.kompiks{
+  top: 317px;
+  left: 974px;
+  scale: 0.3;
+}
+
+.bords{
+  top: 176px;
+  left: 730px;
+  scale: 1;
+}
+
+.Dat_gld{
+  top: -115px;
+  left: 830px;
+  scale: 0.35;
+}
+
+
+.glezuka{
+  top: 110px;
+  left: 416px;
+  scale: 0.4;
+}
+
+
+.Dorvca{
+  top: -5px;
+  left: 1000px;
+  scale: 0.6;
+}
+
+.krleses{
+  top: 388px;
+  left: 563px;
+  scale: 0.8;
+  transform: rotate(-34deg);
+}
+
+
+
+.hetum{
+  top: -83px;
+  left: 863px;
+  scale: 0.45;
+}
+
+.lietum{
+  top: 124px;
+  left: 911px;
+  scale: 0.35;
+}
+
+.gramkam{
+  top: 136px;
+  left: 383px;
+  scale: 0.4;
+}
+
+
+
+.mrbeans{
+  top: 345px;
+  left: 191px;
+  scale: 1;
+}
+
+.vins{
+  top: 4px;
+  left: 295px;
+  scale: 0.25;
+}
+
+.glasaskus{
+  top: 244px;
+  left: 553px;
+  scale: 0.3;
+}
+
+.scecesese{
+  top: 5px;
+  left: 345px;
+  scale: 0.1;
+}
+
+.galdsnormals{
+  top: 285px;
+  left: 446px;
+  scale: 0.6;
+}
+
+.iaiaia{
+  top: 232px;
+  left: 1246px;
+  scale: 0.7;
+}
+
+.tikklok{
+  top: -358px;
+  left: 634px;
+  scale: 0.2;
+}
+
+.zemkas{
+  top: -153px;
+  left: 129px;
+  scale: 0.1;
 }
