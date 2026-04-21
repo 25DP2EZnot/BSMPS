@@ -193,10 +193,10 @@ body .lefto, .raito, .perkš, .Nazad {
 }
 
 .Gld {
-  left: 140px;
-  top: 205px;
-  width: 440px;
-  height: 390px;
+  left: 143px;
+  top: 47px;
+  width: 446px;
+  height: 499px;
 }
 
 .MLa {
@@ -322,4 +322,88 @@ body .lefto, .raito, .perkš, .Nazad {
   top: -153px;
   left: 129px;
   scale: 0.1;
+}
+
+
+
+.dverca img {
+  top: 10px;
+  left: 1437px;
+  scale: 0.7;
+  transform: perspective(200px) rotateY(-16deg);
+  width: 331px;
+  height: 938px;
+}
+
+.kortena {
+  top: -60px;
+  left: 1213px;
+  scale: 0.3;
+  transform: perspective(1000px) rotateY(-43deg);
+  width: 492px;
+  height: 800px;
+}
+
+.somkoko{
+  top: 112px;
+  left: 954px;
+  scale: 0.4;
+}
+
+.kvadrantiks {
+  top: 311px;
+  left: 694px;
+  scale: 0.5;
+  transform: perspective(1500px) rotateX(74deg);
+  width: 492px;
+  height: 800px;
+}
+
+
+
+.book1 {
+  top: 400px;
+  left: 95px;
+  scale: 0.3;
+}
+
+.book2 {
+  top: 251px;
+  left: 312px;
+  scale: 0.15;
+  transform: perspective(1500px) rotateY(-13deg);
+  width: 492px;
+  height: 800px;
+}
+
+.book3 {
+  top: 254px;
+  left: 194px;
+  scale: 0.2;
+  transform: perspective(1500px) rotateY(8deg);
+  width: 492px;
+  height: 800px;
+}
+
+.book4 {
+  top: 274px;
+  left: 239px;
+  scale: 0.15;
+  transform: perspective(1500px) rotateY(26deg);
+  width: 492px;
+  height: 800px;
+}
+
+.dvercaspercam {
+  top: 240px;
+  left: 634px;
+  scale: 0.45;
+}
+
+.arsonpurpleguy{
+  top: 270px;
+  left: 714px;
+  scale: 0.3;
+  width: 500px;
+  height: 500px;
 }
