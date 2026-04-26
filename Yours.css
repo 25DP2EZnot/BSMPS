@@ -73,7 +73,7 @@ body div img, a {
 }
 
 .bd {
-  left: 15%;
+  left: 11%;
   top: 38%;
 }
 
@@ -89,14 +89,14 @@ body div img, a {
   left: 57.5%;
 }
 
-.rEMOUTUS {
+.rEMOUTUS img {
   width: 80px;
   height: auto;
   top: 54%;
   left: 27%;
 }
 
-.vide, .cH {
+.vide {
   scale: 0.38;
   top: 36.25%;
   left: 52%;
@@ -407,3 +407,246 @@ body .lefto, .raito, .perkš, .Nazad {
   width: 500px;
   height: 500px;
 }
+
+.cH {
+  top: 165px;
+  left: 142px;
+  scale: 1.85;
+}
+
+.cH img {
+  width: 400px;
+  height: 300px;
+}
+
+.remoikokla {
+  top: -120px;
+  left: 620px;
+  scale: 0.5;
+}
+
+.bilzhuksUno {
+  top: 123px;
+  left: 199px;
+  scale: 1;
+  transform: perspective(373px) rotateY(53deg) rotateX(-5deg);
+  width: 202px;
+  height: 250px;
+}
+
+.bilzhuksToo {
+  top: 52px;
+  left: 330px;
+  scale: 0.6;
+  transform: perspective(160px) rotateX(-4deg);
+  width: 206px;
+  height: 280px;
+}
+
+.zhving {
+  top: 42px;
+  left: 1203px;
+  scale: 0.95;
+}
+
+.stulsformusickas {
+  top: 327px;
+  left: 810px;
+  scale: 0.35;
+}
+
+.velkirija {
+  top: -62px;
+  left: 595px;
+  scale: 0.12;
+}
+
+.rozenoRozes {
+  top: 280px;
+  left: 982px;
+  scale: 0.4;
+  transform: perspective(160px) rotateX(-4deg);
+}
+
+.FlatCat {
+  top: 311px;
+  left: 868px;
+  scale: 0.25;
+}
+
+
+
+.moooo{
+  top: -189px;
+  left: 296px;
+  scale: 0.15;
+  transform: perspective(160px) rotateX(-2deg);
+}
+
+.bili_u_bauli{
+  top: -315px;
+  left: 837px;
+  scale: 0.2;
+  transform: perspective(160px) rotateX(-2deg);
+}
+
+.smishariki{
+  top: -140px;
+  left: 10px;
+  scale: 0.1;
+  transform: perspective(160px) rotateX(-2deg);
+}
+
+.Trafka {
+  top: 531px;
+  left: 226px;
+  scale: 0.9;
+  transform: perspective(530px) rotateX(48deg);
+}
+
+
+
+.lupatuklaajs {
+  top: 121px;
+  left: 526px;
+  scale: 0.4;
+  transform: perspective(860px) rotateX(70deg);
+}
+
+.mjau_bet_liels {
+  top: -40px;
+  left: 1008px;
+  scale: 0.14;
+}
+
+.ne_s_letavikam {
+  top: -62px;
+  left: 927px;
+  scale: 0.06;
+}
+
+.ne_ne_atkrivaet_ili_pishet {
+  top: 39px;
+  left: 1078px;
+  scale: 0.1;
+}
+
+.pat_dievam_nevajag_buut {
+  top: -142px;
+  left: 257px;
+  scale: 0.55;
+}
+
+.skolas_fakcijas_karogs {
+    top: 30px;
+    left: 1219px;
+    scale: 0.6;
+}
+
+#Dot {
+  top: 800px;
+  left: 600px;
+  scale: 0.4;
+}
+
+.Pampam {
+  top: -140px;
+  left: 450px;
+  scale: 0.55;
+}
+
+.Caimera{
+  top: -112px;
+  left: 447px;
+  scale: 0.6;
+}
+
+.Boumashka{
+  top: 278px;
+  left: 457px;
+  scale: 0.2;
+}
+
+.briluks {
+  top: 246px;
+  left: 381px;
+  scale: 0.25;
+}
+
+.inkainka{
+  top: 273px;
+  left: 480px;
+  scale: 0.2;
+}
+
+.Penene{
+  top: 298px;
+  left: 487px;
+  scale: 0.2;
+}
+
+.plepdishes{
+  top: -61px;
+  left: 479px;
+  scale: 0.55;
+}
+
+.klacklac{
+  top: 99px;
+  left: 303px;
+  scale: 0.3;
+}
+
+
+
+
+
+/* What In gods of creation name
+
+#vid1 {
+  opacity: 0;
+  transition: 0.1;
+  z-index: -1; 
+}
+
+.knopushka1 {
+  top: 650px;
+  left: 1370px;
+  scale: 0.5;
+  transform: rotate(-45deg);
+  z-index: 5;
+  cursor: pointer;
+}
+
+.knopushka1:active + #vid1 {
+  opacity: 1;
+  transition: 0.1;
+  z-index: 6;
+}
+
+.knopushka2 {
+  top: 612px;
+  left: 1415px;
+  scale: 0.5;
+  transform: rotate(-45deg);
+  z-index: 5;
+  cursor: pointer;
+}
+.knopushka3 {
+  top: 572px;
+  left: 1467px;
+  scale: 0.5;
+  transform: rotate(-49deg);
+  z-index: 5;
+  cursor: pointer;
+}
+.knopushka4 {
+  top: 532px;
+  left: 1507px;
+  scale: 0.5;
+  transform: rotate(-45deg);
+  z-index: 5;
+  cursor: pointer;
+}
+
+How the truck i sopoust to make the trucking buttans! */

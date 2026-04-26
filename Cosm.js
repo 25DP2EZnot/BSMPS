@@ -7,22 +7,7 @@ document.addEventListener("mousemove", e => {
 
 
 
-
-
-let count = 1;
-const links = [
-  document.getElementById('vid1'),
-  document.getElementById('vid2'),
-  document.getElementById('vid3'),
-  document.getElementById('vid4')
-];
-
-document.getElementById('clickImg').addEventListener('click', () => {
-  count++;
-  if(count <= 5){
-    videos[count-1].style.display = 'inline-block';
-  } else {
-    videos.forEach(v => v.style.display = 'none');
-    count = 1;
-  }
-});
+function toggleImage() {
+  var img = document.getElementById('topImage');
+  img.classList.toggle('show');
+}
