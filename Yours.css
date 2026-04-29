@@ -755,6 +755,37 @@ body .lefto, .raito, .perkš, .Nazad {
 
 
 
+.Anagele {
+  top: 24%;
+  left: 66.6%;
+  scale: 114%;
+  transform: rotate(33.3deg);
+}
+
+.Luztra {
+  top: 13%;
+  left: 33%;
+  scale: 44%;
+}
+
+.powuk_dom {
+  top: 3%;
+  left: 8%;
+  scale: 61%;
+  transform: perspective(530px) rotateX(-37deg) rotateY(-4deg);
+}
+
+.Powuk {
+  top: -25%;
+  left: -3%;
+  scale: 10%;
+}
+
+
+
+
+
+
 
 
 /* What In gods of creation name
