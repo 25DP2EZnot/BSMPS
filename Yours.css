@@ -601,6 +601,162 @@ body .lefto, .raito, .perkš, .Nazad {
 
 
 
+.blu_grib {
+  top: 17%;
+  left: 73%;
+  scale: 33%;
+}
+
+.cat_frums {
+  top: 12%;
+  left: 75%;
+  scale: 20%;
+}
+
+.cat_tato {
+  top: 48%;
+  left: 34%;
+  scale: 12%;
+}
+
+.cHil {
+  top: 1%;
+  left: 1%;
+  scale: 7%;
+}
+
+.chinchila {
+  top: 50%;
+  left: 37%;
+  scale: 21%;
+}
+
+.eye_dog {
+  top: 36%;
+  left: 61%;
+  scale: 10%;
+}
+
+.Frums_dance {
+  top: 6%;
+  left: 73%;
+  scale: 122%;
+}
+
+.Frums_dance2 {
+  top: -12%;
+  left: 42%;
+  scale: 29%;
+}
+
+.Frums1 {
+  top: -3%;
+  left: 11%;
+  scale: 5%;
+  transform: rotate(45deg);
+}
+
+.Frums2 {
+  top: 44.8%;
+  left: 57%;
+  scale: 46%;
+}
+
+.Frums3 {
+  top: 42.3%;
+  left: 46%;
+  scale: 45%;
+}
+
+.grib_ded {
+  top: 44%;
+  left: 9%;
+  scale: 21%;
+}
+
+.Ham_and_uni {
+  top: 2%;
+  left: 39%;
+  scale: 30%;
+}
+
+.kakh_zakh {
+  top: 44%;
+  left: 17%;
+  scale: 17%;
+}
+
+.Le_margar_dence {
+  top: -13%;
+  left: 48%;
+  scale: 31%;
+}
+
+.monky_nut {
+  top: 58%;
+  left: 17%;
+  scale: 9%;
+}
+
+.papub_buber {
+  top: 13%;
+  left: 77%;
+  scale: 44%;
+}
+
+.Per_ded {
+  top: 49%;
+  left: 65%;
+  scale: 25%;
+}
+
+.per_faza {
+  top: 53%;
+  left: 73%;
+  scale: 22%;
+}
+
+.per_per {
+  top: 38%;
+  left: 67%;
+  scale: 8%;
+}
+
+.per_son {
+  top: 46%;
+  left: 68%;
+  scale: 20%;
+}
+
+.Pipotam {
+  top: 13%;
+  left: -1%;
+  scale: 7%;
+}
+
+.stob_elifan {
+  top: -7%;
+  left: 15%;
+  scale: 30%;
+}
+
+.Cheremsha {
+  top: 24%;
+  left: 12%;
+  scale: 114%;
+}
+
+.carp {
+  top: 66%;
+  left: 33%;
+  scale: 40%;
+  transform: perspective(530px) rotateX(48deg);
+}
+
+
+
+
+
 /* What In gods of creation name
 
 #vid1 {
