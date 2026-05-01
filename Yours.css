@@ -782,6 +782,19 @@ body .lefto, .raito, .perkš, .Nazad {
 }
 
 
+.stand {
+  top: 24%;
+  left: 47%;
+  scale: 34%;
+}
+
+.stand_in_book {
+  top: -160.5%;
+  left: -18.5%;
+  scale: 1.2%;
+  transform: perspective(4200px) rotateX(20deg);
+}
+
 
 
 
