@@ -1,30 +1,18 @@
+
+/*UI stuff*/
+
 body{
-  margin:0;
-  height:100vh;
-  background-image:url("IMG/cosmium.png");
-  background-size:200px;
-  background-repeat:repeat;
-  position: absolute;
+  margin: 0%;
+  background-image: url("IMG/cosmium.png");
+  background-size: 11%;
+  background-repeat: repeat;
 }
-
-
 
 body img, a {
   position: fixed;
   top: 41%;
   left: 36%;
 }
-
-
-
-.land {
-  width: 900px;
-  height: auto;
-  top: 40%;
-  left: 25%;
-}
-
-
 
 body div img, a {
   position: fixed;
@@ -34,37 +22,6 @@ body div img, a {
   height: auto;
 }
 
-.house1{
-  left: 21.95%;
-  opacity:0;
-  transition:0.5s;
-}
-
-.house-wrap:hover .house1{
-  opacity:1;
-  transform:scale(1.01);
-}
-
-
-
-
-.greenhouse img {
-  width: 300px;
-  height: auto;
-  top: 30%;
-  left: 52%;
-  transition: 0.6s;
-}
-
-.greenhouse img:hover {
-  scale: 1.01;
-  transition: 0.5s;
-  opacity: 0.9;
-  filter: hue-rotate(90deg);
-}
-
-
-
 .becground {
   top: 3%;
   left: 11%;
@@ -72,62 +29,7 @@ body div img, a {
   height: 860px;
 }
 
-.bd {
-  left: 11%;
-  top: 38%;
-}
-
-.TVv {
-  scale: 0.3;
-  top: 30%;
-  left: 48.5%;
-}
-
-.CDssnuts {
-  scale: 0.9;
-  top: 62%;
-  left: 57.5%;
-}
-
-.rEMOUTUS img {
-  width: 80px;
-  height: auto;
-  top: 54%;
-  left: 27%;
-}
-
-.vide {
-  scale: 0.38;
-  top: 36.25%;
-  left: 52%;
-  opacity: 0;
-  transition: 1s;
-}
-
-.TVv:hover + .vide {
-  transition: 0.3s;
-  opacity: 1;
-}
-
-.vide:hover {
-  transition: 0.3s;
-  opacity: 1;
-}
-
-.vide img:hover {
-  scale: 1.01;
-  transition: 0.5s;
-  opacity: 0.9;
-  filter: hue-rotate(90deg);
-}
-
-.Waining_vanila{
-  position: absolute;
-  left: 16%;
-  top: 28%;
-}
-
-
+/*Controls*/
 
 body .lefto, .raito, .perkš, .Nazad {
   width: 200px;
@@ -142,25 +44,14 @@ body .lefto, .raito, .perkš, .Nazad {
   opacity: 0.1;
 }
 
-.raito {
-  transition: 0.3s;
-  opacity: 0.1;
-}
-
-.perkš {
-  transition: 0.3s;
-  opacity: 0.1;
-}
-.Nazad {
-  transition: 0.3s;
-  opacity: 0.1;
-}
-
-
-
 .lefto:hover {
   transition: 0.3s;
   opacity: 0.5;
+}
+
+.raito {
+  transition: 0.3s;
+  opacity: 0.1;
 }
 
 .raito:hover {
@@ -168,9 +59,9 @@ body .lefto, .raito, .perkš, .Nazad {
   opacity: 0.5;
 }
 
-.perkš:hover {
+.Nazad {
   transition: 0.3s;
-  opacity: 0.5;
+  opacity: 0.1;
 }
 
 .Nazad:hover {
@@ -178,269 +69,65 @@ body .lefto, .raito, .perkš, .Nazad {
   opacity: 0.5;
 }
 
-.skpV, .Gld, .skpB {
-  width: 250px;
+/*House*/
+
+.house1{
+  left: 21.95%;
+  opacity:0;
+  transition:0.5s;
+}
+
+.house-wrap:hover .house1{
+  opacity:1;
+}
+
+.greenhouse img {
+  width: 300px;
   height: auto;
-  position: absolute;
-  top: 115px;
-  left: 500px;
+  top: 30%;
+  left: 52%;
+  transition: 0.6s;
 }
 
-.skpB {
-  left: 1150px;
-  top: 90px;
-
+.greenhouse img:hover {
+  transition: 0.5s;
+  filter: hue-rotate(90deg);
 }
 
-.Gld {
-  left: 143px;
-  top: 47px;
-  width: 446px;
-  height: 499px;
-}
-
-.MLa {
-  left: 208px;
-  top: 27px;
-  width: 592px;
+.land {
+  width: 47%;
   height: auto;
+  top: 40%;
+  left: 25%;
 }
 
+/*Inagreen*/
 
-
-
-.Skp{
-  top: 170px;
-  left: 250px;
-  scale: 0.8;
+.stand {
+  top: 24%;
+  left: 47%;
+  scale: 34%;
 }
 
-.kompiks{
-  top: 317px;
-  left: 974px;
-  scale: 0.3;
+.stand_in_book {
+  top: -160.5%;
+  left: -18.5%;
+  scale: 1.2%;
+  transform: perspective(4200px) rotateX(20deg);
 }
 
-.bords{
-  top: 176px;
-  left: 730px;
-  scale: 1;
+/*Inahose*/
+
+.bd {
+  left: 11%;
+  top: 38%;
 }
 
-.Dat_gld{
-  top: -115px;
-  left: 830px;
-  scale: 0.35;
-}
-
-
-.glezuka{
-  top: 110px;
-  left: 416px;
-  scale: 0.4;
-}
-
-
-.Dorvca{
-  top: -5px;
-  left: 1000px;
-  scale: 0.6;
-}
-
-.krleses{
-  top: 388px;
-  left: 563px;
-  scale: 0.8;
-  transform: rotate(-34deg);
-}
-
-
-
-.hetum{
-  top: -83px;
-  left: 863px;
-  scale: 0.45;
-}
-
-.lietum{
-  top: 124px;
-  left: 911px;
-  scale: 0.35;
-}
-
-.gramkam{
-  top: -1px;
-  left: 289px;
-  scale: 0.6;
-}
-
-
-
-.mrbeans{
-  top: 345px;
-  left: 191px;
-  scale: 1;
-}
-
-.vins{
-  top: 4px;
-  left: 295px;
-  scale: 0.25;
-}
-
-.glasaskus{
-  top: 244px;
-  left: 553px;
-  scale: 0.3;
-}
-
-.scecesese{
-  top: 5px;
-  left: 345px;
-  scale: 0.1;
-}
-
-.galdsnormals{
-  top: 285px;
-  left: 446px;
-  scale: 0.6;
-}
-
-.iaiaia{
-  top: 232px;
-  left: 1246px;
-  scale: 0.7;
-}
-
-.tikklok{
-  top: -358px;
-  left: 634px;
-  scale: 0.2;
-}
-
-.zemkas{
-  top: -153px;
-  left: 129px;
-  scale: 0.1;
-}
-
-
-
-.dverca img {
-  top: 10px;
-  left: 1437px;
-  scale: 0.7;
-  transform: perspective(200px) rotateY(-16deg);
-  width: 331px;
-  height: 938px;
-}
-
-.kortena {
-  top: -60px;
-  left: 1213px;
-  scale: 0.3;
-  transform: perspective(1000px) rotateY(-43deg);
-  width: 492px;
-  height: 800px;
-}
-
-.somkoko{
-  top: 112px;
-  left: 954px;
-  scale: 0.4;
-}
-
-.kvadrantiks {
-  top: 311px;
-  left: 694px;
-  scale: 0.5;
-  transform: perspective(1500px) rotateX(74deg);
-  width: 492px;
-  height: 800px;
-}
-
-
-
-.book1 {
-  top: 400px;
-  left: 95px;
-  scale: 0.3;
-}
-
-.book2 {
-  top: 251px;
-  left: 312px;
-  scale: 0.15;
-  transform: perspective(1500px) rotateY(-13deg);
-  width: 492px;
-  height: 800px;
-}
-
-.book3 {
-  top: 254px;
-  left: 194px;
-  scale: 0.2;
-  transform: perspective(1500px) rotateY(8deg);
-  width: 492px;
-  height: 800px;
-}
-
-.book4 {
-  top: 274px;
-  left: 239px;
-  scale: 0.15;
-  transform: perspective(1500px) rotateY(26deg);
-  width: 492px;
-  height: 800px;
-}
-
-.dvercaspercam {
-  top: 240px;
-  left: 634px;
-  scale: 0.45;
-}
-
-.arsonpurpleguy{
-  top: 270px;
-  left: 714px;
-  scale: 0.3;
-  width: 500px;
-  height: 500px;
-}
-
-.cH {
-  top: 165px;
-  left: 142px;
-  scale: 1.85;
-}
-
-.cH img {
-  width: 400px;
-  height: 300px;
-}
-
-.remoikokla {
-  top: -120px;
-  left: 620px;
-  scale: 0.5;
-}
-
-.bilzhuksUno {
-  top: 123px;
-  left: 199px;
-  scale: 1;
-  transform: perspective(373px) rotateY(53deg) rotateX(-5deg);
-  width: 202px;
-  height: 250px;
-}
-
-.bilzhuksToo {
-  top: 52px;
-  left: 330px;
-  scale: 0.6;
-  transform: perspective(160px) rotateX(-4deg);
-  width: 206px;
-  height: 280px;
+.rEMOUTUS img {
+  width: 80px;
+  height: auto;
+  top: 54%;
+  left: 27%;
 }
 
 .zhving {
@@ -449,32 +136,47 @@ body .lefto, .raito, .perkš, .Nazad {
   scale: 0.95;
 }
 
-.stulsformusickas {
-  top: 327px;
-  left: 810px;
-  scale: 0.35;
-}
-
-.velkirija {
-  top: -62px;
-  left: 595px;
-  scale: 0.12;
-}
-
-.rozenoRozes {
-  top: 280px;
-  left: 982px;
-  scale: 0.4;
-  transform: perspective(160px) rotateX(-4deg);
-}
-
 .FlatCat {
   top: 311px;
   left: 868px;
   scale: 0.25;
 }
 
+.TVv {
+  scale: 0.3;
+  top: 30%;
+  left: 48.5%;
+}
 
+.vide {
+  scale: 0.37;
+  top: 36.5%;
+  left: 52.1%;
+  opacity: 0;
+  transition: 1s;
+}
+
+.TVv:hover + .vide {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.vide:hover {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.CDssnuts {
+  scale: 0.9;
+  top: 62%;
+  left: 57.5%;
+}
+
+.Waining_vanila{
+  position: absolute;
+  left: 16%;
+  top: 28%;
+}
 
 .moooo{
   top: -189px;
@@ -504,102 +206,120 @@ body .lefto, .raito, .perkš, .Nazad {
   transform: perspective(530px) rotateX(48deg);
 }
 
+.stulsformusickas {
+  top: 327px;
+  left: 810px;
+  scale: 0.35;
+}
 
-
-.lupatuklaajs {
-  top: 121px;
-  left: 526px;
+.rozenoRozes {
+  top: 280px;
+  left: 982px;
   scale: 0.4;
-  transform: perspective(860px) rotateX(70deg);
+  transform: perspective(160px) rotateX(-4deg);
 }
 
-.mjau_bet_liels {
-  top: -40px;
-  left: 1008px;
-  scale: 0.14;
-}
-
-.ne_s_letavikam {
+.velkirija {
   top: -62px;
-  left: 927px;
-  scale: 0.06;
+  left: 595px;
+  scale: 0.12;
 }
 
-.ne_ne_atkrivaet_ili_pishet {
-  top: 39px;
-  left: 1078px;
-  scale: 0.1;
+.bilzhuksUno {
+  top: 123px;
+  left: 199px;
+  scale: 1;
+  transform: perspective(373px) rotateY(53deg) rotateX(-5deg);
+  width: 202px;
+  height: 250px;
 }
 
-.pat_dievam_nevajag_buut {
-  top: -142px;
-  left: 257px;
-  scale: 0.55;
-}
-
-.skolas_fakcijas_karogs {
-    top: 30px;
-    left: 1219px;
-    scale: 0.6;
-}
-
-#Dot {
-  top: 800px;
-  left: 600px;
-  scale: 0.4;
-}
-
-.Pampam {
-  top: -140px;
-  left: 450px;
-  scale: 0.55;
-}
-
-.Caimera{
-  top: -112px;
-  left: 447px;
+.bilzhuksToo {
+  top: 52px;
+  left: 330px;
   scale: 0.6;
+  transform: perspective(160px) rotateX(-4deg);
+  width: 206px;
+  height: 280px;
 }
 
-.Boumashka{
-  top: 278px;
-  left: 457px;
-  scale: 0.2;
+/*TvButBliska*/
+
+.cH {
+  top: 165px;
+  left: 142px;
+  scale: 1.85;
 }
 
-.briluks {
-  top: 246px;
-  left: 381px;
-  scale: 0.25;
+.cH img {
+  width: 400px;
+  height: 300px;
 }
 
-.inkainka{
-  top: 273px;
-  left: 480px;
-  scale: 0.2;
+/* What In gods of creation name
+
+#vid1 {
+  opacity: 0;
+  transition: 0.1;
+  z-index: -1; 
 }
 
-.Penene{
-  top: 298px;
-  left: 487px;
-  scale: 0.2;
+.knopushka1 {
+  top: 650px;
+  left: 1370px;
+  scale: 0.5;
+  transform: rotate(-45deg);
+  z-index: 5;
+  cursor: pointer;
 }
 
-.plepdishes{
-  top: -61px;
-  left: 479px;
-  scale: 0.55;
+.knopushka1:active + #vid1 {
+  opacity: 1;
+  transition: 0.1;
+  z-index: 6;
 }
 
-.klacklac{
-  top: 99px;
-  left: 303px;
-  scale: 0.3;
+.knopushka2 {
+  top: 612px;
+  left: 1415px;
+  scale: 0.5;
+  transform: rotate(-45deg);
+  z-index: 5;
+  cursor: pointer;
+}
+.knopushka3 {
+  top: 572px;
+  left: 1467px;
+  scale: 0.5;
+  transform: rotate(-49deg);
+  z-index: 5;
+  cursor: pointer;
+}
+.knopushka4 {
+  top: 532px;
+  left: 1507px;
+  scale: 0.5;
+  transform: rotate(-45deg);
+  z-index: 5;
+  cursor: pointer;
 }
 
+How the truck i sopoust to make the trucking buttans! */
 
+.remoikokla {
+  top: -120px;
+  left: 620px;
+  scale: 0.5;
+}
 
+/*Frums*/
 
+.carp {
+  top: 66%;
+  left: 33%;
+  scale: 40%;
+  transform: perspective(530px) rotateX(48deg);
+}
 
 .blu_grib {
   top: 17%;
@@ -704,7 +424,7 @@ body .lefto, .raito, .perkš, .Nazad {
   scale: 44%;
 }
 
-.Per_ded {
+.per_ded {
   top: 49%;
   left: 65%;
   scale: 25%;
@@ -716,16 +436,16 @@ body .lefto, .raito, .perkš, .Nazad {
   scale: 22%;
 }
 
-.per_per {
-  top: 38%;
-  left: 67%;
-  scale: 8%;
-}
-
 .per_son {
   top: 46%;
   left: 68%;
   scale: 20%;
+}
+
+.per_per {
+  top: 38%;
+  left: 67%;
+  scale: 8%;
 }
 
 .Pipotam {
@@ -746,14 +466,313 @@ body .lefto, .raito, .perkš, .Nazad {
   scale: 114%;
 }
 
-.carp {
-  top: 66%;
-  left: 33%;
-  scale: 40%;
-  transform: perspective(530px) rotateX(48deg);
+/*Darbistab*/
+
+.skpV, .Gld, .skpB {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  top: 115px;
+  left: 500px;
 }
 
+.skpB {
+  left: 1150px;
+  top: 90px;
 
+}
+
+.Gld {
+  left: 143px;
+  top: 47px;
+  width: 446px;
+  height: 499px;
+}
+
+#Dot {
+  top: 800px;
+  left: 600px;
+  scale: 0.4;
+}
+
+.klacklac{
+  top: 99px;
+  left: 303px;
+  scale: 0.3;
+}
+
+.Pampam {
+  top: -140px;
+  left: 450px;
+  scale: 0.55;
+}
+
+.Penene{
+  top: 298px;
+  left: 487px;
+  scale: 0.2;
+}
+
+.Caimera{
+  top: -112px;
+  left: 447px;
+  scale: 0.6;
+}
+
+.plepdishes{
+  top: -61px;
+  left: 479px;
+  scale: 0.55;
+}
+
+.Boumashka{
+  top: 278px;
+  left: 457px;
+  scale: 0.2;
+}
+
+.briluks {
+  top: 246px;
+  left: 381px;
+  scale: 0.25;
+}
+
+.inkainka{
+  top: 273px;
+  left: 480px;
+  scale: 0.2;
+}
+
+.krleses{
+  top: 388px;
+  left: 563px;
+  scale: 0.8;
+  transform: rotate(-34deg);
+}
+
+/*Galds*/
+
+.MLa {
+  left: 208px;
+  top: 27px;
+  width: 592px;
+  height: auto;
+}
+
+/*doors*/
+
+.hetum{
+  top: -83px;
+  left: 863px;
+  scale: 0.45;
+}
+
+.somkoko{
+  top: 112px;
+  left: 954px;
+  scale: 0.4;
+}
+
+.lietum{
+  top: 124px;
+  left: 911px;
+  scale: 0.35;
+}
+
+.gramkam{
+  top: -1px;
+  left: 289px;
+  scale: 0.6;
+}
+
+.dverca img {
+  top: 10px;
+  left: 1437px;
+  scale: 0.7;
+  transform: perspective(200px) rotateY(-16deg);
+  width: 331px;
+  height: 938px;
+}
+
+.kortena {
+  top: -60px;
+  left: 1213px;
+  scale: 0.3;
+  transform: perspective(1000px) rotateY(-43deg);
+  width: 492px;
+  height: 800px;
+}
+
+.kvadrantiks {
+  top: 311px;
+  left: 694px;
+  scale: 0.5;
+  transform: perspective(1500px) rotateX(74deg);
+  width: 492px;
+  height: 800px;
+}
+
+.book1 {
+  top: 400px;
+  left: 95px;
+  scale: 0.3;
+}
+
+.book2 {
+  top: 251px;
+  left: 312px;
+  scale: 0.15;
+  transform: perspective(1500px) rotateY(-13deg);
+  width: 492px;
+  height: 800px;
+}
+
+.book3 {
+  top: 254px;
+  left: 194px;
+  scale: 0.2;
+  transform: perspective(1500px) rotateY(8deg);
+  width: 492px;
+  height: 800px;
+}
+
+.book4 {
+  top: 274px;
+  left: 239px;
+  scale: 0.15;
+  transform: perspective(1500px) rotateY(26deg);
+  width: 492px;
+  height: 800px;
+}
+
+/*berns*/
+
+/*BeldeDurvis*/
+
+.glezuka{
+  top: 110px;
+  left: 416px;
+  scale: 0.4;
+}
+
+.Dorvca{
+  top: -5px;
+  left: 1000px;
+  scale: 0.6;
+}
+
+.vins{
+  top: 4px;
+  left: 295px;
+  scale: 0.25;
+}
+
+.galdsnormals{
+  top: 285px;
+  left: 446px;
+  scale: 0.6;
+}
+
+.pat_dievam_nevajag_buut {
+  top: -142px;
+  left: 257px;
+  scale: 0.55;
+}
+
+.mrbeans{
+  top: 345px;
+  left: 191px;
+  scale: 1;
+}
+
+.zemkas{
+  top: -153px;
+  left: 129px;
+  scale: 0.1;
+}
+
+.glasaskus{
+  top: 244px;
+  left: 553px;
+  scale: 0.3;
+}
+
+.scecesese{
+  top: 5px;
+  left: 345px;
+  scale: 0.1;
+}
+
+.skolas_fakcijas_karogs {
+  top: 30px;
+  left: 1219px;
+  scale: 0.6;
+}
+
+.iaiaia{
+  top: 232px;
+  left: 1246px;
+  scale: 0.7;
+}
+
+.tikklok{
+  top: -358px;
+  left: 634px;
+  scale: 0.2;
+}
+
+.lupatuklaajs {
+  top: 121px;
+  left: 526px;
+  scale: 0.4;
+  transform: perspective(860px) rotateX(70deg);
+}
+
+.mjau_bet_liels {
+  top: -40px;
+  left: 1008px;
+  scale: 0.14;
+}
+
+.ne_ne_atkrivaet_ili_pishet {
+  top: 39px;
+  left: 1078px;
+  scale: 0.1;
+}
+
+.ne_s_letavikam {
+  top: -62px;
+  left: 927px;
+  scale: 0.06;
+}
+
+/*Gleznaa*/
+
+.bords{
+  top: 176px;
+  left: 730px;
+  scale: 1;
+}
+
+.Dat_gld{
+  top: -115px;
+  left: 830px;
+  scale: 0.35;
+}
+
+.Skp{
+  top: 170px;
+  left: 250px;
+  scale: 0.8;
+}
+
+.kompiks{
+  top: 317px;
+  left: 974px;
+  scale: 0.3;
+}
+
+/*Potolokes*/
 
 .Anagele {
   top: 24%;
@@ -781,72 +800,26 @@ body .lefto, .raito, .perkš, .Nazad {
   scale: 10%;
 }
 
+/*Kitcanet*/
 
-.stand {
-  top: 24%;
-  left: 47%;
-  scale: 34%;
+.arsonpurpleguy{
+  top: 270px;
+  left: 714px;
+  scale: 0.3;
+  width: 500px;
+  height: 500px;
 }
 
-.stand_in_book {
-  top: -160.5%;
-  left: -18.5%;
-  scale: 1.2%;
-  transform: perspective(4200px) rotateX(20deg);
+/*Ehditogotovito*/
+
+/*Agestusaria*/
+
+.dvercaspercam {
+  top: 240px;
+  left: 634px;
+  scale: 0.45;
 }
 
+/*Adito*/
 
 
-
-
-
-
-/* What In gods of creation name
-
-#vid1 {
-  opacity: 0;
-  transition: 0.1;
-  z-index: -1; 
-}
-
-.knopushka1 {
-  top: 650px;
-  left: 1370px;
-  scale: 0.5;
-  transform: rotate(-45deg);
-  z-index: 5;
-  cursor: pointer;
-}
-
-.knopushka1:active + #vid1 {
-  opacity: 1;
-  transition: 0.1;
-  z-index: 6;
-}
-
-.knopushka2 {
-  top: 612px;
-  left: 1415px;
-  scale: 0.5;
-  transform: rotate(-45deg);
-  z-index: 5;
-  cursor: pointer;
-}
-.knopushka3 {
-  top: 572px;
-  left: 1467px;
-  scale: 0.5;
-  transform: rotate(-49deg);
-  z-index: 5;
-  cursor: pointer;
-}
-.knopushka4 {
-  top: 532px;
-  left: 1507px;
-  scale: 0.5;
-  transform: rotate(-45deg);
-  z-index: 5;
-  cursor: pointer;
-}
-
-How the truck i sopoust to make the trucking buttans! */
