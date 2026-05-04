@@ -448,6 +448,12 @@ How the truck i sopoust to make the trucking buttans! */
   scale: 8%;
 }
 
+.per_beb {
+  top: 61%;
+  left: 69%;
+  scale: 18%;
+}
+
 .Pipotam {
   top: 13%;
   left: -1%;
@@ -798,6 +804,324 @@ How the truck i sopoust to make the trucking buttans! */
   top: -25%;
   left: -3%;
   scale: 10%;
+}
+
+/*CheesesRise*/
+
+.gaiteti {
+  top: 8%;
+  left: 17%;
+  scale: 51%;
+}
+
+.Joshuaa {
+  top: 9%;
+  left: 31%;
+  scale: 58%;
+}
+
+.True_head_Jesus {
+  top: -33.5%;
+  left: 27.5%;
+  scale: 6.5%;
+  opacity: 0;
+  transition: 1s;
+}
+
+.True_head_Jesus:hover {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.Diskooo {
+  top: -15%;
+  left: 28.6%;
+  scale: 6%;
+}
+
+.Barrr {
+  top: -53.5%;
+  left: 36.2%;
+  scale: 3.5%;
+}
+
+.baMBam {
+  top: 37.5%;
+  left: 11.2%;
+  scale: 50%;
+}
+
+.fliing_burger {
+  top: 6.5%;
+  left: 63.2%;
+  scale: 40%;
+}
+
+.Houly_cow {
+  top: 3.5%;
+  left: 7.2%;
+  scale: 29%;
+}
+
+.Long_dogiy {
+  top: 12.5%;
+  left: 79.2%;
+  scale: 42%;
+}
+
+.mousterian {
+  top: 21.5%;
+  left: 65.2%;
+  scale: 64%;
+}
+
+.Pinpin {
+  top: 53.5%;
+  left: 63.2%;
+  scale: 60%;
+}
+
+.piupiu {
+  top: 46.5%;
+  left: 10.2%;
+  scale: 63%;
+}
+
+.Rufus_krisus {
+  top: 44.5%;
+  left: 17.2%;
+  scale: 111%;
+}
+
+/*HellBar*/
+
+.Bartender {
+  top: -5.5%;
+  left: 52.2%;
+  scale: 66.6%;
+}
+
+.fork {
+  top: 13%;
+  left: 54.2%;
+  scale: 66.6%;
+}
+
+.Ash_babay {
+  top: 66%;
+  left: 16%;
+  scale: 124%;
+}
+
+.Beby_head {
+  top: 36%;
+  left: 55.2%;
+  scale: 32.6%;
+  transform: rotate(-23deg);
+}
+
+.Culdron {
+  top: 7%;
+  left: 28.2%;
+  scale: 25.6%;
+}
+
+.demon_boys {
+  top: 9%;
+  left: 5.2%;
+  scale: 38%;
+  transform: perspective(500px) rotateX(-14deg) rotateY(17deg);
+}
+
+.Monkys {
+  top: 42%;
+  left: 19.2%;
+  scale: 46%;
+}
+
+.pear_pica_AAAAAA {
+  top: 43%;
+  left: 25.2%;
+  scale: 20%;
+}
+
+.Scelly2 {
+  top: 4%;
+  left: 32.2%;
+  scale: 32.6%;
+}
+
+.Skelly1 {
+  top: 29%;
+  left: 47.2%;
+  scale: 94.6%;
+}
+
+.the_not_devil {
+  top: 6%;
+  left: 13.2%;
+  scale: 22%;
+}
+
+/*AbscuraDisko*/
+
+.BUMBUM {
+  top: -49%;
+  left: 19.2%;
+  scale: 15%;
+}
+
+.champagne {
+  top: 40%;
+  left: 50%;
+  scale: 110%;
+}
+
+.dancer1 {
+  top: -29%;
+  left: 46%;
+  scale: 40%;
+}
+
+.dancer2 {
+  top: -16%;
+  left: 13%;
+  scale: 43%;
+}
+
+.dancer3 {
+  top: 34%;
+  left: 13%;
+  scale: 115%;
+}
+
+.dancer4 {
+  top: 20%;
+  left: 7%;
+  scale: 74%;
+}
+
+.dancer5 {
+  top: 27%;
+  left: 32%;
+  scale: 40%;
+}
+
+.dancer6 {
+  top: 28%;
+  left: 50%;
+  scale: 83%;
+}
+
+.dancer7 {
+  top: 38%;
+  left: 78%;
+  scale: 102%;
+}
+
+.dancer8 {
+  top: -28%;
+  left: 14%;
+  scale: 39%;
+}
+
+.dancer9 {
+  top: 5%;
+  left: 4%;
+  scale: 49%;
+}
+
+.dancer10 {
+  top: -3%;
+  left: 59%;
+  scale: 50%;
+}
+
+.dancer11 {
+  top: 18%;
+  left: 17%;
+  scale: 80%;
+}
+
+.dancer12 {
+  top: 36%;
+  left: 27%;
+  scale: 61%;
+}
+
+.dancer13 {
+  top: 37%;
+  left: 60%;
+  scale: 102%;
+}
+
+.dancer14 {
+  top: 22%;
+  left: 53%;
+  scale: 79%;
+}
+
+.dancer15 {
+  top: 0%;
+  left: 11%;
+  scale: 55%;
+}
+
+.dancer16 {
+  top: 13%;
+  left: 25%;
+  scale: 75%;
+}
+
+.dancer17 {
+  top: 39%;
+  left: 12%;
+  scale: 124%;
+}
+
+.dancer18 {
+  top: 16%;
+  left: 65%;
+  scale: 70%;
+}
+
+.dancer19 {
+  top: 34%;
+  left: 56%;
+  scale: 112%;
+}
+
+.dancer20 {
+  top: 31%;
+  left: 15%;
+  scale: 76%;
+}
+
+.Parika3 {
+  top: 13.4%;
+  left: 63.9%;
+  scale: 39%;
+}
+
+.Parika2 {
+  top: 23.3%;
+  left: 68.6%;
+  scale: 50%;
+}
+
+.Parika1 {
+  top: 22.5%;
+  left: 33.7%;
+  scale: 73.8%;
+}
+
+/*Musarka*/
+
+.Chal {
+  top: 30%;
+  left: 8.2%;
+  scale: 45%;
+  transform: perspective(500px) rotateY(35deg);
 }
 
 /*Kitcanet*/
