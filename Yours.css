@@ -981,12 +981,41 @@ How the truck i sopoust to make the trucking buttans! */
   top: -29%;
   left: 46%;
   scale: 40%;
+  animation: booogy 2s infinite alternate linear;
+}
+
+@keyframes booogy {
+  0% {
+    transform: skew(0.25rad);
+    scale: 40% 45%;
+    left: 41%;
+    top: -38%;
+  }
+
+  50% {
+    transform: skew(0rad);
+    scale: 40% 35%;
+    left: 46%;
+    top: -29%;
+  }
+
+  100% {
+    transform: skew(-0.25rad);
+    scale: 40% 45%;
+    left: 51%;
+    top: -38%;
+  }
 }
 
 .dancer2 {
   top: -16%;
   left: 13%;
   scale: 43%;
+  transition: transform 3s ease-in-out;
+}
+
+.dancer2:hover {
+  transform: rotate(720deg);
 }
 
 .dancer3 {
@@ -999,12 +1028,37 @@ How the truck i sopoust to make the trucking buttans! */
   top: 20%;
   left: 7%;
   scale: 74%;
+  animation: jump 1s infinite alternate linear;
+}
+
+@keyframes jump {
+  0% {
+    top: 30%;
+    left: 7%;
+    scale: 74% 37%;
+  }
+
+  100% {
+    top: 16%;
+    left: 7%;
+    scale: 74% 74%;
+  }
 }
 
 .dancer5 {
   top: 27%;
   left: 32%;
-  scale: 40%;
+  scale: 0.4;
+  animation: upupaway 1s infinite alternate linear;
+}
+
+@keyframes upupaway {
+  0% {
+    top: 25%;
+  }
+  100% {
+    top: 29%;
+  }
 }
 
 .dancer6 {
@@ -1021,8 +1075,14 @@ How the truck i sopoust to make the trucking buttans! */
 
 .dancer8 {
   top: -28%;
-  left: 14%;
+  left: 20%;
   scale: 39%;
+  transition: 1s;
+}
+
+.dancer8:hover {
+  transform: rotateY(360deg);
+  transition: 1s;
 }
 
 .dancer9 {
@@ -1041,18 +1101,91 @@ How the truck i sopoust to make the trucking buttans! */
   top: 18%;
   left: 17%;
   scale: 80%;
+  animation: gacis 1s infinite alternate linear;
+}
+
+@keyframes gacis {
+  0% {
+    transform: skew(0.25rad);
+    top: 18%;
+    left: 17%;
+    scale: 80%;
+  }
+
+  50% {
+    transform: skew(0rad);
+    top: 21%;
+    left: 17%;
+    scale: 80% 70%;
+  }
+
+  100% {
+    transform: skew(-0.25rad);
+    top: 18%;
+    left: 17%;
+    scale: 80%;
+  }
 }
 
 .dancer12 {
   top: 36%;
   left: 27%;
   scale: 61%;
+  animation: kiki 0.5s infinite alternate linear;
+}
+
+@keyframes kiki {
+  0% {
+    transform: skew(0.25rad);
+    top: 36%;
+    left: 27%;
+    scale: 61%;
+  }
+
+  33.3% {
+    transform: skew(0rad);
+    top: 36%;
+    left: 27%;
+    scale: 61%;
+  }
+
+  66.6% {
+    transform: skew(0rad);
+    top: 36%;
+    left: 27%;
+    scale: 61%;
+  }
+
+  100% {
+    transform: skew(-0.25rad);
+    top: 36%;
+    left: 27%;
+    scale: 61%;
+  }
 }
 
 .dancer13 {
   top: 37%;
   left: 60%;
   scale: 102%;
+  animation: opra 2s infinite alternate linear;
+}
+
+@keyframes opra {
+  from {
+    top: 37%;
+    left: 60%;
+    scale: 102%;
+    transform: rotateY(0deg);
+  }
+
+  to {
+    top: 37%;
+    left: 70%;
+    scale: 102%;
+    transform: rotateY(360deg); 
+  }
+
 }
 
 .dancer14 {
@@ -1101,6 +1234,30 @@ How the truck i sopoust to make the trucking buttans! */
   top: 13.4%;
   left: 63.9%;
   scale: 39%;
+  animation: booogy2 2s infinite alternate linear;
+}
+
+@keyframes booogy2 {
+  0% {
+    transform: skew(0.25rad);
+    scale: 39% 44%;
+    left: 55.9%;
+    top: 1.4%;
+  }
+
+  50% {
+    transform: skew(0rad);
+    scale: 39% 34%;
+    left: 63.9%;
+    top: 16.4%;
+  }
+
+  100% {
+    transform: skew(-0.25rad);
+    scale: 39% 44%;
+    left: 72.2%;
+    top: 1.4%;
+  }
 }
 
 .Parika2 {
