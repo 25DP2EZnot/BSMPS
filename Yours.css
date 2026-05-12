@@ -1198,6 +1198,38 @@ How the truck i sopoust to make the trucking buttans! */
   top: 0%;
   left: 11%;
   scale: 55%;
+  animation: marsha 2s infinite alternate linear;
+}
+
+@keyframes marsha {
+  0% {
+    top: 0%;
+    left: 11%;
+    scale: 55%;
+    transform: skew(-0.25rad);
+  }
+
+  33.3% {
+    top: -5%;
+    left: 11%;
+    scale: 55%;
+    transform: skew(0.25rad);
+  }
+
+  66.6% {
+    top: 0%;
+    left: 21%;
+    scale: 55%;
+    transform: skew(-0.25rad);
+  }
+
+  100% {
+    top: -5%;
+    left: 21%;
+    scale: 55%;
+    transform: skew(0.25rad);
+  }
+
 }
 
 .dancer16 {
@@ -1213,21 +1245,61 @@ How the truck i sopoust to make the trucking buttans! */
 }
 
 .dancer18 {
-  top: 16%;
+  top: 21%;
   left: 65%;
   scale: 70%;
+  transition: scale 1s;
+}
+
+.dancer18:hover {
+  scale: 70% 50%;
 }
 
 .dancer19 {
   top: 34%;
   left: 56%;
   scale: 112%;
+  animation: askas 2s infinite alternate linear;
+}
+
+@keyframes askas {
+  from {
+    top: 34%;
+    left: 56%;
+    scale: 112%;
+    transform: rotateY(360deg); 
+  }
+
+  to {
+    top: 34%;
+    left: 56%;
+    scale: -112%;
+  }
+
 }
 
 .dancer20 {
   top: 31%;
   left: 15%;
   scale: 76%;
+  animation: nima 2s infinite alternate linear;
+}
+
+@keyframes nima {
+  from {
+    top: 30%;
+    left: 15%;
+    scale: 75%;
+    transform: skew(0.25rad);
+  }
+
+  to {
+    top: 32%;
+    left: 15%;
+    scale: 77%;
+    transform: skew(-0.25rad);
+  }
+
 }
 
 .Parika3 {

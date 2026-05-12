@@ -7,11 +7,13 @@
 </head>
 <body>  
 
+    <audio id="sound3" src="AUD\PushMe.mp3"></audio>
+
     <a href="AbscuraDisko2.html" class="lefto" style="position:absolute; left:25px;"></a>
 
     <img src="IMG\Disko_klubs\Disko_flore.png.jpg" class="becground">
 
-    <img src="IMG\Disko_klubs\Disko_bumba.png" class="BUMBUM">
+    <img src="IMG\Disko_klubs\Disko_bumba.png" id="BUMBUM3" class="BUMBUM">
 
     <img src="IMG\Disko_klubs\dancer8.png" class="dancer8">
 
@@ -30,4 +32,12 @@
     <a href="Musarka.html" ><img src="IMG\Disko_klubs\Parika2.png" class="Parika2"></a>
 
 </body>
+<script>
+    const disko3 = document.getElementById("BUMBUM3");
+    const sound3 = document.getElementById("sound3");
+    disko3.addEventListener("click", () => {
+        sound3.currentTime = 0;
+        sound3.play();
+    });    
+</script>
 </html>

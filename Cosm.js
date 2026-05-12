@@ -10,4 +10,4 @@ document.addEventListener("mousemove", e => {
 function toggleImage() {
   var img = document.getElementById('topImage');
   img.classList.toggle('show');
-}
+};

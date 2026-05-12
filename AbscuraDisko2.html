@@ -7,12 +7,14 @@
 </head>
 <body> 
 
+    <audio id="sound2" src="AUD\DiscordMove.mp3"></audio>
+
     <a href="AbscuraDisko1.html" class="lefto" style="position:absolute; left:25px;"></a>
     <a href="AbscuraDisko3.html" class="lefto" style="position:absolute; left:1700px;"></a>
 
     <img src="IMG\Disko_klubs\Disko_flore.png.jpg" class="becground">
 
-    <img src="IMG\Disko_klubs\Disko_bumba.png" class="BUMBUM">
+    <img src="IMG\Disko_klubs\Disko_bumba.png" id="BUMBUM" class="BUMBUM">
 
     <img src="IMG\Disko_klubs\dancer2.png" class="dancer2">
 
@@ -31,4 +33,12 @@
     <a href="Musarka.html" ><img src="IMG\Disko_klubs\Parika3.png" class="Parika3"></a>
 
 </body>
+<script>
+    const disko2 = document.getElementById("BUMBUM2");
+    const sound2 = document.getElementById("sound2");
+    disko2.addEventListener("click", () => {
+        sound2.currentTime = 0;
+        sound2.play();
+    });
+</script>
 </html>

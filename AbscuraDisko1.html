@@ -6,12 +6,14 @@
     <script src="Cosm.js"></script>
 </head>
 <body>  
-    
+
+    <audio id="sound1" src="AUD\BadaBdabaBum.mp3"></audio>
+
     <a href="AbscuraDisko2.html" class="lefto" style="position:absolute; left:1700px;"></a>
 
     <img src="IMG\Disko_klubs\Disko_flore.png.jpg" class="becground">
 
-    <img src="IMG\Disko_klubs\Disko_bumba.png" class="BUMBUM">
+    <img src="IMG\Disko_klubs\Disko_bumba.png" id="BUMBUM1" class="BUMBUM">
 
     <img src="IMG\Disko_klubs\champagne.gif" class="champagne">
 
@@ -30,4 +32,12 @@
     <a href="Musarka.html" ><img src="IMG\Disko_klubs\Parika1.png" class="Parika1"></a>
 
 </body>
+<script>
+    const disko1 = document.getElementById("BUMBUM1");
+    const sound1 = document.getElementById("sound1");
+    disko1.addEventListener("click", () => {
+        sound1.currentTime = 0;
+        sound1.play();
+    });
+</script>
 </html>
