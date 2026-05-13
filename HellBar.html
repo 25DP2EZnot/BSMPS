@@ -7,6 +7,8 @@
 </head>
 <body>  
 
+    <audio id="sound666" src="AUD/HellBaJingle.mp3"></audio>
+
     <img src="IMG\Hel_bar\HellBarPic.png" class="becground">
 
     <img src="IMG\Hel_bar\Bartender.png" class="Bartender">
@@ -19,7 +21,7 @@
     
     <img src="IMG\Hel_bar\Culdron.gif" class="Culdron">
 
-    <img src="IMG\Hel_bar\demon_boys.gif" class="demon_boys">
+    <img src="IMG\Hel_bar\demon_boys.gif" id="Jinglehell" class="demon_boys">
 
     <img src="IMG\Hel_bar\Monkys.gif" class="Monkys">
 
@@ -32,4 +34,12 @@
     <img src="IMG\Hel_bar\the_not_devil.gif" class="the_not_devil">
 
 </body>
+<script>
+    const helish = document.getElementById("Jinglehell");
+    const sound666 = document.getElementById("sound666");
+    helish.addEventListener("click", () => {
+        sound666.currentTime = 0;
+        sound666.play();
+    });
+</script>
 </html>
