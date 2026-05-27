@@ -18,23 +18,23 @@ body div img, a {
   position: fixed;
   top: 15%;
   left: 30%;
-  width: 520px;
+  width: 27.1%;
   height: auto;
 }
 
 .becground {
   top: 3%;
   left: 11%;
-  width: 1500px;
-  height: 860px;
+  width: 78.13%;
+  height: 93.58%;
 }
 
 /*Controls*/
 
 body .lefto, .raito, .perkš, .Nazad {
-  width: 200px;
-  height: 800px;
-  top: 50px;
+  width: 10.417%;
+  height: 87.052%;
+  top: 5.442%;
   background-color: aliceblue;
   position: absolute;
 }
@@ -82,7 +82,7 @@ body .lefto, .raito, .perkš, .Nazad {
 }
 
 .greenhouse img {
-  width: 300px;
+  width: 15.625%;
   height: auto;
   top: 30%;
   left: 52%;
@@ -104,15 +104,15 @@ body .lefto, .raito, .perkš, .Nazad {
 /*Inagreen*/
 
 .stand {
-  top: 24%;
-  left: 47%;
-  scale: 34%;
+  top: 35%;
+  left: 68%;
+  scale: 49%;
 }
 
 .stand_in_book {
-  top: -160.5%;
-  left: -18.5%;
-  scale: 1.2%;
+  top: -155.5%;
+  left: 3.2%;
+  scale: 2.2%;
   transform: perspective(4200px) rotateX(20deg);
 }
 
