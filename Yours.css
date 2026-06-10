@@ -25,8 +25,8 @@ body div img, a {
 .becground {
   top: 3%;
   left: 11%;
-  width: 78.13%;
-  height: 93.58%;
+  width: 78.13vw;
+  height: 93.58vh;
 }
 
 /*Controls*/
@@ -111,7 +111,7 @@ body .lefto, .raito, .perkš, .Nazad {
 
 .stand_in_book {
   top: -155.5%;
-  left: 3.2%;
+  left:  3.2%;
   scale: 2.2%;
   transform: perspective(4200px) rotateX(20deg);
 }
@@ -124,21 +124,21 @@ body .lefto, .raito, .perkš, .Nazad {
 }
 
 .rEMOUTUS img {
-  width: 80px;
+  width: 4.167%;
   height: auto;
   top: 54%;
   left: 27%;
 }
 
 .zhving {
-  top: 42px;
-  left: 1203px;
+  top: 4.571%;
+  left: 63%;
   scale: 0.95;
 }
 
 .FlatCat {
-  top: 311px;
-  left: 868px;
+  top: 34%;
+  left: 45.5%;
   scale: 0.25;
 }
 
@@ -179,22 +179,22 @@ body .lefto, .raito, .perkš, .Nazad {
 }
 
 .moooo{
-  top: -189px;
-  left: 296px;
+  top: -20.567%;
+  left: 15.5385%;
   scale: 0.15;
   transform: perspective(160px) rotateX(-2deg);
 }
 
 .bili_u_bauli{
-  top: -315px;
-  left: 837px;
+  top: -34.278%;
+  left: 43.594%;
   scale: 0.2;
   transform: perspective(160px) rotateX(-2deg);
 }
 
 .smishariki{
-  top: -140px;
-  left: 10px;
+  top: -15.234%;
+  left: 0.525%;
   scale: 0.1;
   transform: perspective(160px) rotateX(-2deg);
 }
@@ -207,40 +207,40 @@ body .lefto, .raito, .perkš, .Nazad {
 }
 
 .stulsformusickas {
-  top: 327px;
-  left: 810px;
+  top: 36%;
+  left: 43%;
   scale: 0.35;
 }
 
 .rozenoRozes {
-  top: 280px;
-  left: 982px;
+  top: 30.468%;
+  left: 51.1459%;
   scale: 0.4;
   transform: perspective(160px) rotateX(-4deg);
 }
 
 .velkirija {
-  top: -62px;
-  left: 595px;
+  top: -6.747%;
+  left: 31.234%;
   scale: 0.12;
 }
 
 .bilzhuksUno {
-  top: 123px;
-  left: 199px;
+  top: 13.385%;
+  left: 10.365%;
   scale: 1;
   transform: perspective(373px) rotateY(53deg) rotateX(-5deg);
-  width: 202px;
-  height: 250px;
+  width: 10.521%;
+  height: 27.205%;
 }
 
 .bilzhuksToo {
-  top: 52px;
-  left: 330px;
+  top: 5.66%;
+  left: 17.323%;
   scale: 0.6;
   transform: perspective(160px) rotateX(-4deg);
-  width: 206px;
-  height: 280px;
+  width: 10.573%;
+  height: 30.468%;
 }
 
 /*TvButBliska*/
