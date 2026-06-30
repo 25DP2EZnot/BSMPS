@@ -556,6 +556,108 @@ How the truck i sopoust to make the trucking buttans! */
   transform: rotate(-34deg);
 }
 
+.Potion1{
+  top: -97px;
+  left: 1074px;
+  scale: 0.1;
+}
+
+.Potion2{
+  top: 141px;
+  left: 1148px;
+  scale: 0.25;
+}
+
+.Potion3{
+  top: -243px;
+  left: 893px;
+  scale: 0.05;
+}
+
+.Potion4{
+  top: -162px;
+  left: 1061px;
+  scale: 0.08;
+}
+
+.Potion5{
+  top: 296px;
+  left: 1068px;
+  scale: 0.15;
+}
+
+.Potion6{
+  top: 56px;
+  left: 1084px;
+  scale: 0.1;
+}
+
+.Potion7{
+  top: -361px;
+  left: 1077px;
+  scale: 0.06;
+}
+
+.Potion8{
+  top: -432px;
+  left: 965px;
+  scale: 0.06;
+}
+
+.Potion9{
+  top: -13px;
+  left: 1185px;
+  scale: 0.07;
+}
+
+.Potion10{
+  top: -133px;
+  left: 881px;
+  scale: 0.08;
+}
+
+.Potion11{
+  top: -101px;
+  left: 767px;
+  scale: 0.06;
+}
+
+.Potion12{
+  top:55px;
+  left: 994px;
+  scale: 0.08;
+}
+
+.Potion13{
+  top: 121px;
+  left: 1250px;
+  scale: 0.2;
+}
+
+.Potion14{
+  top: -426px;
+  left: 998px;
+  scale: 0.06;
+}
+
+.GSMSA{
+  top: 322px;
+  left: 1045px;
+  scale: 0.17;
+}
+
+.FeamleDogs{
+  top: 156px;
+  left: 1085px;
+  scale: 0.17;
+}
+
+.AizliektaisDzeriens{
+  top: -240px;
+  left: 948px;
+  scale: 0.09;
+}
+
 /*Galds*/
 
 .MLa {
@@ -1363,11 +1465,107 @@ How the truck i sopoust to make the trucking buttans! */
   height: 500px;
 }
 
+.busts_bertolds{
+  top: -290px;
+  left: 740px;
+  scale: 0.11;
+}
+
+.katerga{
+  top: -50px;
+  left: 907px;
+  scale: 0.17;
+}
+
+.nut_kreker{
+  top: -83px;
+  left: 760px;
+  scale: 0.14;
+}
+
+.pudelka{
+  top: 305px;
+  left: 810px;
+  scale: 0.3;
+}
+
+.statushka{
+  top: 116px;
+  left: 695px;
+  scale: 0.35;
+}
+
 /*Ehditogotovito*/
+
+.chai_haus{
+  top: 222px;
+  left: 948px;
+  scale: 0.5;
+}
+
+.garelka{
+  top: 245px;
+  left: 909px;
+  scale: 0.25;
+}
+
+.gral_norm{
+  top: 51px;
+  left: 1011px;
+  scale: 0.12;
+}
+
+.koldrens{
+  top: -44px;
+  left: 310px;
+  scale: 0.2;
+}
+
+.kostrula{
+  top: 146px;
+  left: 1075px;
+  scale: 0.24;
+}
+
+.krensis{
+  top: -94px;
+  left: 896px;
+  scale: 0.05;
+}
+
+.kurshka_metalnaja{
+  top: -104px;
+  left: 766px;
+  scale: 0.06;
+}
+
+.Scalester{
+  top: -245px;
+  left: 525px;
+  scale: 0.15;
+}
+
+.table_trubek{
+  top: 56px;
+  left: 1153px;
+  scale: 0.7;
+}
+
+.timwcabin{
+  top: 126px;
+  left: 760px;
+  scale: 0.3;
+}
+
+.winoks_done{
+  top: 254px;
+  left: 710px;
+  scale: 0.35;
+}
 
 /*Agestusaria*/
 
-.dvercaspercam {
+.dvercaspercam{
   top: 240px;
   left: 634px;
   scale: 0.45;
