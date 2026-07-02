@@ -116,6 +116,212 @@ body .lefto, .raito, .perkš, .Nazad {
   transform: perspective(4200px) rotateX(20deg);
 }
 
+
+
+.atkap_purkels {
+  top: 70px;
+  left: 800px;
+  scale: 0.2;
+}
+
+.bite {
+  top: -380px;
+  left: 319px;
+  scale: 0.1;
+}
+
+.dos_jes_douh {
+  top: -210px;
+  left: 890px;
+  scale: 0.05;
+}
+
+.drugiipupleflovi {
+  top: 300px;
+  left: 930px;
+  scale: 0.3;
+}
+
+.gold_sakura {
+  top: 0px;
+  left: 490px;
+  scale: 0.4;
+}
+
+.Hedasakoks {
+  top: -100px;
+  left: 510px;
+  scale: 0.3;
+}
+
+.kautkaspalns {
+  top: 353px;
+  left: 929px;
+  scale: 0.2;
+}
+
+.kusts {
+  top: 530px;
+  left: 240px;
+  scale: 0.6;
+}
+
+.mechats_w_roke {
+  top: -310px;
+  left: 540px;
+  scale: 0.08;
+}
+
+.mushkhehrahj {
+  top: 560px;
+  left: 510px;
+  scale: 0.2;
+}
+
+.pantiin {
+  top: 310px;
+  left: 370px;
+  scale: 0.2;
+}
+
+.pertri {
+  top: 120px;
+  left: 920px;
+  scale: 0.4;
+}
+
+.pink_sakura {
+  top: -100px;
+  left: 260px;
+  scale: 0.3;
+}
+
+.plants {
+  top: -230px;
+  left: 213px;
+  scale: 0.1;
+}
+
+.purpl_sakura {
+  top: 150px;
+  left: 350px;
+  scale: 0.6;
+}
+
+.purpleflovini {
+  top: 390px;
+  left: -60px;
+  scale: 0.5;
+}
+
+.puķes {
+  top: 500px;
+  left: 1400px;
+  scale: 0.7;
+}
+
+.salds1 {
+  top: -390px;
+  left: 1137px;
+  scale: 0.08;
+}
+
+.salds_ējums1 {
+  top: -640px;
+  left: 930px;
+  scale: 0.04;
+}
+
+.salds_ējums2 {
+  top: -220px;
+  left: 1260px;
+  scale: 0.09;
+}
+
+.salds_ējums3 {
+  top: -250px;
+  left: 1130px;
+  scale: 0.07;
+}
+
+.semkas {
+  top: -100px;
+  left: 330px;
+  scale: 0.1;
+}
+
+.shreoom_circle {
+  top: 510px;
+  left: 450px;
+  scale: 0.4;
+}
+
+.skulliki2 {
+  top: -90px;
+  left: 530px;
+  scale: 0.07;
+}
+
+.sukulant {
+  top: -30px;
+  left: 900px;
+  scale: 0.07;
+}
+
+.wedorka {
+  top: 250px;
+  left: 600px;
+  scale: 0.2;
+}
+
+.zars {
+  top: -120px;
+  left: 273px;
+  scale: 0.1;
+}
+
+.zem_sald_eejums {
+  top: -150px;
+  left: 870px;
+  scale: 0.06;
+}
+
+.zememememes {
+  top: 0px;
+  left: 447px;
+  scale: 0.3;
+}
+
+.svirlijs {
+  top: 440px;
+  left: 1108px;
+  scale: 0.1;
+}
+
+.Candy_scream_koks {
+  top: 120px;
+  left: 1220px;
+  scale: 0.8;
+}
+
+.Strobery_jam {
+  top: -290px;
+  left: 990px;
+  scale: 0.06;
+}
+
+.Maby_plants {
+  top: -270px;
+  left: 70px;
+  scale: 0.3;
+}
+
+.poweshanij_plant {
+  top: -260px;
+  left: 1310px;
+  scale: 0.4;
+}
+
 /*Inahose*/
 
 .bd {
@@ -755,6 +961,84 @@ How the truck i sopoust to make the trucking buttans! */
 
 /*berns*/
 
+.Bird_not_plant{
+  top: -360px;
+  left: 680px;
+  scale: 0.35;
+}
+
+.cabin_up{
+  top: 240px;
+  left: 1030px;
+  scale: 0.5;
+}
+
+.Drink_me_or_day{
+  top: -150px;
+  left: 960px;
+  scale: 0.08;
+}
+
+.Globalus{
+  top: 40px;
+  left: 430px;
+  scale: 0.25;
+}
+
+.korobka{
+  top: 275px;
+  left: 10px;
+  scale: 0.4;
+}
+
+.Korobka_mony{
+  top: 120px;
+  left: 180px;
+  scale: 0.2;
+}
+
+.Loookers{
+  top: 310px;
+  left: 950px;
+  scale: 0.6;
+}
+
+.nomomy_karobka{
+  top: 220px;
+  left: 120px;
+  scale: 0.2;
+}
+
+.pesmo{
+  top: -30px;
+  left: 1240px;
+  scale: 0.15;
+}
+
+.Putns_runātājs{
+  top: 60px;
+  left: 827px;
+  scale: 0.25;
+}
+
+.Realitates_enkurs{
+  top: 110px;
+  left: 300px;
+  scale: 0.5;
+}
+
+.Roros{
+  top: 170px;
+  left: 1210px;
+  scale: 0.2;
+}
+
+.U_gona_eat_me{
+  top: -10px;
+  left: 817px;
+  scale: 0.1;
+}
+
 /*BeldeDurvis*/
 
 .glezuka{
@@ -878,6 +1162,63 @@ How the truck i sopoust to make the trucking buttans! */
   top: 317px;
   left: 974px;
   scale: 0.3;
+}
+
+.Coffffe{
+  top: 251px;
+  left: 954px;
+  scale: 0.1;
+}
+
+.hleboshek{
+  top: 346px;
+  left: 985px;
+  scale: 0.2;
+}
+
+.Kraslers{
+  top: 270px;
+  left: 1220px;
+  scale: 0.5;
+}
+
+.mannastinte{
+  top: -259px;
+  left: 900px;
+  scale: 0.1;
+}
+
+.purperpaklejers{
+  top: 250px;
+  left: 290px;
+  scale: 0.7;
+  transform: perspective(1400px) rotateX(80deg);
+  width: 900px;
+  height: 900px;
+}
+
+.globkus{
+  top: -145px;
+  left: 650px;
+  scale: 0.2;
+}
+
+.Kamera_portāls{
+  top: -125px;
+  left: 1325px;
+  scale: 0.5;
+}
+
+.Kastopletka{
+  top: 137px;
+  left: -33px;
+  scale: 0.25;
+}
+
+.Lanterna{
+  top: -365px;
+  left: 480px;
+  scale: 0.1;
 }
 
 /*Potolokes*/
@@ -1571,6 +1912,112 @@ How the truck i sopoust to make the trucking buttans! */
   scale: 0.45;
 }
 
+.amamam_kresls{
+  top: -156px;
+  left: -42px;
+  scale: 0.24;
+}
+
+.asoba_chai{
+  top: 300px;
+  left: 400px;
+  scale: 0.17;
+}
+
+.nom_nom_nom{
+  top: 150px;
+  left: 450px;
+  scale: 0.3;
+}
+
+.stolastestums{
+  top: 466px;
+  left: 422px;
+  scale: 0.8;
+}
+
+.Wood_cup{
+  top: 260px;
+  left: 410px;
+  scale: 0.18;
+}
+
 /*Adito*/
 
+.aditanisms{
+  top: 256px;
+  left: 460px;
+  scale: 0.2;
+}
 
+.costimito{
+  top: 150px;
+  left: 800px;
+  scale: 0.75;
+}
+
+.akmens_nositaamie{
+  top: 120px;
+  left: 793px;
+  scale: 0.2;
+}
+
+.cool_cheir{
+  top: 364px;
+  left: 490px;
+  scale: 0.8;
+}
+
+.diegs{
+  top: 250px;
+  left: 960px;
+  scale: 0.3;
+}
+
+.kompus{
+  top: 320px;
+  left: 620px;
+  scale: 0.15;
+}
+
+.lamba{
+  top: 470px;
+  left: 370px;
+  scale: 0.2;
+}
+
+.mirra{
+  top: -140px;
+  left: 250px;
+  scale: 0.4;
+}
+
+.Potsi{
+  top: 160px;
+  left: 610px;
+  scale: 0.2;
+}
+
+.rags{
+  top: 90px;
+  left: 1000px;
+  scale: 0.2;
+}
+
+.rojal{
+  top: 270px;
+  left: 1030px;
+  scale: 0.8;
+}
+
+.sakta{
+  top: 0px;
+  left: 610px;
+  scale: 0.05;
+}
+
+.waza{
+  top: -160px;
+  left: 482px;
+  scale: 0.07;
+}
