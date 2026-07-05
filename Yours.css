@@ -29,6 +29,13 @@ body div img, a {
   height: 93.58vh;
 }
 
+.Nulhlh{
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+}
+
 /*Controls*/
 
 body .lefto, .raito, .perkš, .Nazad {
@@ -462,12 +469,20 @@ body .lefto, .raito, .perkš, .Nazad {
   height: 300px;
 }
 
-/* What In gods of creation name
+#gif1{
+  display: none;
+}
 
-#vid1 {
-  opacity: 0;
-  transition: 0.1;
-  z-index: -1; 
+#gif2{
+  display: none;
+}
+
+#gif3{
+  display: none;
+}
+
+#gif4{
+  display: none;
 }
 
 .knopushka1 {
@@ -475,14 +490,6 @@ body .lefto, .raito, .perkš, .Nazad {
   left: 1370px;
   scale: 0.5;
   transform: rotate(-45deg);
-  z-index: 5;
-  cursor: pointer;
-}
-
-.knopushka1:active + #vid1 {
-  opacity: 1;
-  transition: 0.1;
-  z-index: 6;
 }
 
 .knopushka2 {
@@ -490,27 +497,21 @@ body .lefto, .raito, .perkš, .Nazad {
   left: 1415px;
   scale: 0.5;
   transform: rotate(-45deg);
-  z-index: 5;
-  cursor: pointer;
+
 }
 .knopushka3 {
   top: 572px;
   left: 1467px;
   scale: 0.5;
   transform: rotate(-49deg);
-  z-index: 5;
-  cursor: pointer;
+
 }
 .knopushka4 {
   top: 532px;
   left: 1507px;
   scale: 0.5;
   transform: rotate(-45deg);
-  z-index: 5;
-  cursor: pointer;
 }
-
-How the truck i sopoust to make the trucking buttans! */
 
 .remoikokla {
   top: -120px;
@@ -1027,9 +1028,15 @@ How the truck i sopoust to make the trucking buttans! */
   scale: 0.5;
 }
 
+.minimja{
+  top: 320px;
+  left: 340px;
+  scale: 0.4;
+}
+
 .Roros{
-  top: 170px;
-  left: 1210px;
+  top: 155px;
+  left: 1248px;
   scale: 0.2;
 }
 
@@ -1037,6 +1044,12 @@ How the truck i sopoust to make the trucking buttans! */
   top: -10px;
   left: 817px;
   scale: 0.1;
+}
+
+.Akvaparks{
+  top: -85px;
+  left: 787px;
+  scale: 0.2;
 }
 
 /*BeldeDurvis*/
@@ -1203,8 +1216,8 @@ How the truck i sopoust to make the trucking buttans! */
   scale: 0.2;
 }
 
-.Kamera_portāls{
-  top: -125px;
+.Kamera_portals{
+  top: 125px;
   left: 1325px;
   scale: 0.5;
 }
@@ -1213,12 +1226,28 @@ How the truck i sopoust to make the trucking buttans! */
   top: 137px;
   left: -33px;
   scale: 0.25;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .Lanterna{
   top: -365px;
   left: 480px;
   scale: 0.1;
+}
+
+#Door{
+  display: none;
+  pointer-events: none;
+}
+
+.Ingenier_dore{
+  top: 5px;
+  left: 191px;
+  scale: 0.7;
+  transform: perspective(1000px) rotateY(50deg);
+  width: 400px;
+  height: 800px;
 }
 
 /*Potolokes*/
