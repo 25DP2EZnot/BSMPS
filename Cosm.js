@@ -18,7 +18,7 @@ const Box = document.getElementById("BOXERS_Shorts");
 const Camera = document.getElementById("Pojektors");
 
 
-Box.addEventListener('click', () => {
+Box?.addEventListener('click', () => {
   if (Box.style.top === '82px') {
     Box.style.top = '137px';
     Box.style.left = '-33px';
@@ -30,7 +30,7 @@ Box.addEventListener('click', () => {
   }
 });
 
-Camera.addEventListener('click', () => {
+Camera?.addEventListener('click', () => {
   if (Door.style.display === 'block') {
     Door.style.display = 'none';
   } else {
@@ -50,34 +50,60 @@ const vid2 = document.getElementById("vid2");
 const vid3 = document.getElementById("vid3");
 const vid4 = document.getElementById("vid4");
 
-vid1.addEventListener('click', () => {
-  if (gif1.style.display === 'none') {
+
+
+vid1?.addEventListener('click', () => {
+  if (gif1.style.display === 'block') {
+    gif1.style.display = 'none';
+    gif2.style.display = 'none';
+    gif3.style.display = 'none';
+    gif4.style.display = 'none';
+  } else {
     gif1.style.display = 'block';
+    gif2.style.display = 'none';
+    gif3.style.display = 'none';
+    gif4.style.display = 'none';
+  }
+});
+
+vid2?.addEventListener('click', () => {
+  if (gif2.style.display === 'block') {
+    gif1.style.display = 'none';
+    gif2.style.display = 'none';
+    gif3.style.display = 'none';
+    gif4.style.display = 'none';
   } else {
     gif1.style.display = 'none';
-  }
-});
-
-vid2.addEventListener('click', () => {
-  if (gif2.style.display === 'none') {
     gif2.style.display = 'block';
-  } else {
-    gif2.style.display = 'none';
-  }
-});
-
-vid3.addEventListener('click', () => {
-  if (gif3.style.display === 'none') {
-    gif3.style.display = 'block';
-  } else {
     gif3.style.display = 'none';
+    gif4.style.display = 'none';
   }
 });
 
-vid4.addEventListener('click', () => {
-  if (gif4.style.display === 'none') {
-    gif4.style.display = 'block';
-  } else {
+vid3?.addEventListener('click', () => {
+  if (gif3.style.display === 'block') {
+    gif1.style.display = 'none';
+    gif2.style.display = 'none';
+    gif3.style.display = 'none';
     gif4.style.display = 'none';
+  } else {
+    gif1.style.display = 'none';
+    gif2.style.display = 'none';
+    gif3.style.display = 'block';
+    gif4.style.display = 'none';
+  }
+});
+
+vid4?.addEventListener('click', () => {
+  if (gif4.style.display === 'block') {
+    gif1.style.display = 'none';
+    gif2.style.display = 'none';
+    gif3.style.display = 'none';
+    gif4.style.display = 'none';
+  } else {
+    gif1.style.display = 'none';
+    gif2.style.display = 'none';
+    gif3.style.display = 'none';
+    gif4.style.display = 'block';
   }
 });

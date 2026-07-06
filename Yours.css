@@ -1865,6 +1865,87 @@ body .lefto, .raito, .perkš, .Nazad {
   scale: 0.35;
 }
 
+.Art_galerys{
+  top: -624px;
+  left: 750px;
+  scale: 0.2;
+}
+
+.clockey{
+  top: -50px;
+  left: 800px;
+  scale: 0.3;
+}
+
+.diskosito{
+  top: -30px;
+  left: 874px;
+  scale: 0.2;
+}
+
+.divantiks{
+  top: 451px;
+  left: 1143px;
+  scale: 0.9;
+}
+
+.fruto{
+  top: 338px;
+  left: 700px;
+  scale: 0.4;
+}
+
+.Ragus_indeginos{
+  top: 638px;
+  left: 630px;
+  scale: 1;
+  transform: perspective(500px) rotateX(35deg);
+  width: 660px;
+  height: 240px;
+}
+
+.stuliksis{
+  top: 440px;
+  left: 1001px;
+  scale: 0.5;
+}
+
+.traukis{
+  top: -140px;
+  left: 240px;
+  scale: 0.6;
+}
+
+.uguns_sezhvieta{
+  top: 144px;
+  left: 215px;
+  scale: 0.5;
+}
+
+.wood{
+  top: 230px;
+  left: 640px;
+  scale: 0.15;
+}
+
+.bookonfroout{
+  top: 370px;
+  left: 670px;
+  scale: 0.4;
+}
+
+.horseshucrabpurble{
+  top: -290px;
+  left: 543px;
+  scale: 0.2;
+}
+
+.sveckas{
+  top: 186px;
+  left: 754px;
+  scale: 0.2;
+}
+
 /*Ehditogotovito*/
 
 .chai_haus{
