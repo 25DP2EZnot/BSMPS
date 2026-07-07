@@ -31,13 +31,18 @@ Box?.addEventListener('click', () => {
 });
 
 Camera?.addEventListener('click', () => {
-  if (Door.style.display === 'block') {
-    Door.style.display = 'none';
+  if (Door.style.opacity === '1') {
+    Door.style.opacity = '0';
+    setTimeout(() => {
+      Door.style.display = 'none';
+    }, 5000);
   } else {
     Door.style.display = 'block';
+    setTimeout(() => {
+      Door.style.opacity = '1';
+    }, 10);
   }
 });
-
 
 
 const gif1 = document.getElementById("gif1");

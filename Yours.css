@@ -78,34 +78,101 @@ body .lefto, .raito, .perkš, .Nazad {
 
 /*House*/
 
+.house-wrap{
+  top: 170px;
+  left: -40px;
+  scale: 1;
+  position: relative;
+}
+
 .house1{
-  left: 21.95%;
-  opacity:0;
-  transition:0.5s;
+  transition: 0.6s;
+  opacity: 0;
 }
 
 .house-wrap:hover .house1{
+  transition: 0.6s;
   opacity:1;
 }
 
-.greenhouse img {
-  width: 15.625%;
-  height: auto;
-  top: 30%;
-  left: 52%;
+.greenhouse {
+  top: 250px;
+  left: 1030px;
+  scale: 1;
   transition: 0.6s;
 }
 
-.greenhouse img:hover {
-  transition: 0.5s;
+.greenhouse:hover {
+  transition: 0.6s;
   filter: hue-rotate(90deg);
 }
 
-.land {
-  width: 47%;
-  height: auto;
-  top: 40%;
-  left: 25%;
+.land{
+  top: 630px;
+  left: 840px;
+  scale: 3.5;
+}
+
+.big_old_clockey {
+  top: -640px;
+  left: 770px;
+  scale: 0.1;
+  rotate: 40deg;
+}
+
+.booble {
+  top: 170px;
+  left: 90px;
+  scale: 0.3;
+  opacity: 0.5;
+}
+
+.dodocoin {
+  top: 540px;
+  left: 975px;
+  scale: 0.8;
+}
+
+.godd_dalegs {
+  top: 0px;
+  left: 1300px;
+  scale: 0.2;
+}
+
+.inaprishelenehc {
+  top: -150px;
+  left: 380px;
+  scale: 0.2;
+}
+
+.kometa {
+  top: -260px;
+  left: -170px;
+  scale: 0.3;
+}
+
+.pukhis_cools {
+  top: 0px;
+  left: 1300px;
+  scale: 0.3;
+}
+
+.spektakls {
+  top: -400px;
+  left: 900px;
+  scale: 0.1;
+}
+
+.sputniks_aaah {
+  top: 450px;
+  left: -90px;
+  scale: 0.7;
+}
+
+.TARBIS {
+  top: 100px;
+  left: 1300px;
+  scale: 0.3;
 }
 
 /*Inagreen*/
@@ -122,8 +189,6 @@ body .lefto, .raito, .perkš, .Nazad {
   scale: 2.2%;
   transform: perspective(4200px) rotateX(20deg);
 }
-
-
 
 .atkap_purkels {
   top: 70px;
@@ -1482,11 +1547,6 @@ body .lefto, .raito, .perkš, .Nazad {
   scale: 0.1;
 }
 
-#Door{
-  display: none;
-  pointer-events: none;
-}
-
 .Ingenier_dore{
   top: 5px;
   left: 191px;
@@ -1494,6 +1554,13 @@ body .lefto, .raito, .perkš, .Nazad {
   transform: perspective(1000px) rotateY(50deg);
   width: 400px;
   height: 800px;
+}
+
+#Door {
+  display: none;
+  pointer-events: none;  
+  opacity: 0;
+  transition: opacity 3s cubic-bezier(0.42, 0, 1, 1);
 }
 
 /*Potolokes*/

@@ -6,14 +6,82 @@
     <script src="Cosm.js" defer></script>
 </head>
 <body>
-  <img src="IMG\Islandia\land.png" class="land">
+  <img src="IMG/Arturs_arus/land.png" class="land">
 
-  <a href="Inagreen.html" class="greenhouse"><img src="IMG\Islandia\Aukstumnica.png"></a>
-
+  <a href="Inagreen.html"><img src="IMG/Arturs_arus/Aukstumnica.png" class="greenhouse"></a>
+  
   <div class="house-wrap">
-    <img src="IMG\Islandia\Bune.png" class="house">
-    <a href="Inahose.html" class="house1"><img src="IMG\Islandia\Buda.png"></a>
+    <img src="IMG/Arturs_arus/Bune.png" class="house">
+    <a href="Inahose.html" class="ruuuts"><img src="IMG/Arturs_arus/Buda.png" class="house1"></a>
   </div>
 
+  <img src="IMG/Arturs_arus/big_old_clockey.png" id="bilde1" class="big_old_clockey">
+
+  <img src="IMG/Arturs_arus/booble.png" id="bilde2" class="booble">
+
+  <img src="IMG/Arturs_arus/dodocoin.png" id="bilde3" class="dodocoin">
+
+  <img src="IMG/Arturs_arus/godd_dalegs.png" id="bilde4" class="godd_dalegs">
+
+  <img src="IMG/Arturs_arus/inaprishelenehc.png" id="bilde5" class="inaprishelenehc">
+
+  <img src="IMG/Arturs_arus/kometa.png" id="bilde6" class="kometa">
+
+  <img src="IMG/Arturs_arus/pukhis_cools.png" id="bilde7" class="pukhis_cools">
+
+  <img src="IMG/Arturs_arus/spektakls.png" id="bilde8" class="spektakls">
+
+  <img src="IMG/Arturs_arus/sputniks_aaah.png" id="bilde9" class="sputniks_aaah">
+
+  <img src="IMG/Arturs_arus/TARBIS.png" id="bilde10" class="TARBIS">
+
+  <!-- <img src="IMG/Arturs_arus/" class=""> -->
+
 </body>
+<script>
+function anime(img) {
+  if (!img) return;
+  let anglePhase = Math.random() * Math.PI * 2;
+  let opacityPhase = Math.random() * Math.PI * 2;
+  const rotDuration = Math.random() * 4 + 1;
+  const opDuration = Math.random() * 4 + 1;
+  const rotSpeed = (Math.PI * 2) / (rotDuration * 60);
+  const opSpeed = (Math.PI * 2) / (opDuration * 60);
+  const maxAngle = Math.random() * 20 + 20;
+  img.style.transformOrigin = 'center';
+  function animate() {
+    anglePhase += rotSpeed;
+    opacityPhase += opSpeed;
+    const currentAngle = Math.sin(anglePhase) * maxAngle;
+    const currentOpacity = 0.6 + Math.cos(opacityPhase) * 0.4;
+    img.style.transform = `rotate(${currentAngle}deg)`;
+    img.style.opacity = currentOpacity;
+    requestAnimationFrame(animate);
+  }
+  animate();
+}
+
+const img1 = document.querySelector('#bilde1');
+const img2 = document.querySelector('#bilde2');
+const img3 = document.querySelector('#bilde3');
+const img4 = document.querySelector('#bilde4');
+const img5 = document.querySelector('#bilde5');
+const img6 = document.querySelector('#bilde6');
+const img7 = document.querySelector('#bilde7');
+const img8 = document.querySelector('#bilde8');
+const img9 = document.querySelector('#bilde9');
+const img10 = document.querySelector('#bilde10');
+
+anime(img1);
+anime(img2);
+anime(img3);
+anime(img4);
+anime(img5);
+anime(img6);
+anime(img7);
+anime(img8);
+anime(img9);
+anime(img10);
+
+</script>
 </html>
