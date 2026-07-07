@@ -3,7 +3,7 @@
 
 body{
   margin: 0%;
-  background-image: url("IMG/cosmium.png");
+  background-image: url("IMG/Arturs_arus/cosmium.png");
   background-size: 11%;
   background-repeat: repeat;
 }
@@ -679,6 +679,37 @@ body .lefto, .raito, .perkš, .Nazad {
   scale: 114%;
 }
 
+.per_joye{
+  top: 490px;
+  left: 180px;
+  scale: 0.3;
+}
+
+.per_kus_kus{
+  top: 520px;
+  left: 110px;
+  scale: 0.2;
+}
+
+.per_grany{
+  top: 415px;
+  left: 170px;
+  scale: 0.17;
+}
+
+.per_labottomy{
+  top: 240px;
+  left: -100px;
+  scale: 0.07;
+}
+
+.per_weil{
+  top: 565px;
+  left: 222px;
+  scale: 0.14;
+}
+
+
 /*Darbistab*/
 
 .skpV, .Gld, .skpB {
@@ -692,7 +723,6 @@ body .lefto, .raito, .perkš, .Nazad {
 .skpB {
   left: 1150px;
   top: 90px;
-
 }
 
 .Gld {
@@ -845,6 +875,222 @@ body .lefto, .raito, .perkš, .Nazad {
   top: -426px;
   left: 998px;
   scale: 0.06;
+}
+
+.Potion15{
+  top: -27px;
+  left: 980px;
+  scale: 0.08;
+}
+
+.Potion16{
+  top: -20px;
+  left: 913px;
+  scale: 0.1;
+}
+
+.Potion17{
+  top: -150px;
+  left: 523px;
+  scale: 0.15;
+}
+
+.Potion18{
+  top: -143px;
+  left: 750px;
+  scale: 0.1;
+}
+
+.Potion19{
+  top: 230px;
+  left: 990px;
+  scale: 0.17;
+}
+
+.Potion20{
+  top: 250px;
+  left: 1160px;
+  scale: 0.2;
+}
+
+.Potion21{
+  top: 5px;
+  left: 999px;
+  scale: 0.08;
+}
+
+.Potion22{
+  top: -290px;
+  left: 450px;
+  scale: 0.08;
+}
+
+.Potion23{
+  top: 220px;
+  left: 1123px;
+  scale: 0.1;
+}
+
+.rokus_magikus_falsh_goldus{
+  top: -154px;
+  left: 888px;
+  scale: 0.08;
+}
+
+.sals_kegstals{
+  top: 120px;
+  left: 690px;
+  scale: 0.17;
+}
+
+.star_rokus{
+  top: -116px;
+  left: 1046px;
+  scale: 0.16;
+}
+
+.aimetistos{
+  top: 103px;
+  left: 810px;
+  scale: 0.15;
+}
+
+.bizmuts{
+  top: 190px;
+  left: 888px;
+  scale: 0.1;
+}
+
+.Crestalus_kavoto_aces{
+  top: 424px;
+  left: 1220px;
+  scale: 0.1;
+}
+
+.dark_and_evel_rockus{
+  top: 232px;
+  left: 1070px;
+  scale: 0.2;
+}
+
+.Hrustal_cvetak{
+  top: 12px;
+  left: 1056px;
+  scale: 0.16;
+}
+
+.Kraislers{
+  top: -127px;
+  left: 640px;
+  scale: 0.07;
+}
+
+.krasivijs_krestals{
+  top: -24px;
+  left: 1274px;
+  scale: 0.22;
+}
+
+.lavatral{
+  top: -76px;
+  left: 570px;
+  scale: 0.07;
+}
+
+.lavus_krokus{
+  top: -140px;
+  left: 1010px;
+  scale: 0.1;
+}
+
+.pinkus_rokus{
+  top: -370px;
+  left: 630px;
+  scale: 0.05;
+}
+
+.Shara_ved{
+  top: 444px;
+  left: 410px;
+  scale: 0.2;
+}
+
+.Solarus_looker{
+  top: 180px;
+  left: 244px;
+  scale: 0.07;
+}
+
+.time_lashina{
+  top: 200px;
+  left: 400px;
+  scale: 0.12;
+}
+
+.ball1{
+  top: -2px;
+  left: 254px;
+  scale: 0.06;
+}
+
+.gold_aple{
+  top: 288px;
+  left: 416px;
+  scale: 0.12;
+}
+
+.Goled_planetad{
+  top: -240px;
+  left: 184px;
+  scale: 0.06;
+}
+
+.lova_worldus{
+  top: -18px;
+  left: 336px;
+  scale: 0.09;
+}
+
+.magus_blobus{
+  top: -180px;
+  left: 318px;
+  scale: 0.06;
+}
+
+.planeta_voktus_shitadus{
+  top: -12px;
+  left: 657px;
+  scale: 0.12;
+}
+
+.paklagers{
+  top: 428px;
+  left: 461px;
+  scale: 0.5;
+}
+
+.maslou{
+  top: 0px;
+  left: 860px;
+  scale: 0.05;
+}
+
+.kaska_pinkus{
+  top: 420px;
+  left: 1000px;
+  scale: 0.2;
+}
+
+.gorda{
+  top: -295px;
+  left: 246px;
+  scale: 0.1;
+}
+
+.bookes_tover{
+  top: 315px;
+  left: 1238px;
+  scale: 0.3;
 }
 
 .GSMSA{
@@ -1950,13 +2196,13 @@ body .lefto, .raito, .perkš, .Nazad {
 
 .chai_haus{
   top: 222px;
-  left: 948px;
+  left: 888px;
   scale: 0.5;
 }
 
 .garelka{
   top: 245px;
-  left: 909px;
+  left: 850px;
   scale: 0.25;
 }
 
@@ -1967,9 +2213,9 @@ body .lefto, .raito, .perkš, .Nazad {
 }
 
 .koldrens{
-  top: -44px;
-  left: 310px;
-  scale: 0.2;
+  top: -74px;
+  left: 74px;
+  scale: 0.1;
 }
 
 .kostrula{
@@ -2003,15 +2249,121 @@ body .lefto, .raito, .perkš, .Nazad {
 }
 
 .timwcabin{
-  top: 126px;
-  left: 760px;
-  scale: 0.3;
+  top: 308px;
+  left: 708px;
+  scale: 0.5;
+  width: 668px;
+  height: 485px;
 }
 
 .winoks_done{
-  top: 254px;
-  left: 710px;
-  scale: 0.35;
+  top: 185px;
+  left: 439px;
+  scale: 0.2;
+}
+
+.cant{
+  top: 166px;
+  left: 366px;
+  scale: 0.15;
+}
+
+.Gurkus{
+  top: 187px;
+  left: 421px;
+  scale: 0.16;
+}
+
+.kasteplhka{
+  top: 107px;
+  left: 312px;
+  scale: 0.1;
+}
+
+.klever_mesnoi{
+  top: -90px;
+  left: 294px;
+  scale: 0.13;
+}
+
+.Kofe_makes_olds{
+  top: -192px;
+  left: 62px;
+  scale: 0.07;
+}
+
+.Konfetash{
+  top: 159px;
+  left: 506px;
+  scale: 0.14;
+}
+
+.Konkfeta_for_bigus_gajus{
+  top: -364px;
+  left: 673px;
+  scale: 0.1;
+}
+
+.lampus_ne_na_zhire{
+  top: 5px;
+  left: 413px;
+  scale: 0.1;
+}
+
+.Maisses{
+  top: 298px;
+  left: 380px;
+  scale: 0.2;
+}
+
+.Michelssijs_Mauss{
+  top: 465px;
+  left: 1072px;
+  scale: 0.15;
+}
+
+.milostul{
+  top: 198px;
+  left: 925px;
+  scale: 0.15;
+}
+
+.oleivers{
+  top: 240px;
+  left: 380px;
+  scale: 0.1;
+}
+
+.Paklajus_le_nature{
+  top: 540px;
+  left: 720px;
+  scale: 0.7;
+  width: 800px;
+  height: 400px;
+}
+
+.Plantus_for_homes{
+  top: 3px;
+  left: 456px;
+  scale: 0.2;
+}
+
+.polka, .polka2{
+  top: -230px;
+  left: 264px;
+  scale: 0.5;
+}
+
+.Sea_songa{
+  top: 67px;
+  left: 342px;
+  scale: 0.25;
+}
+
+.Stendus_for_rumus_of_tualetus{
+  top: 228px;
+  left: 550px;
+  scale: 0.3;
 }
 
 /*Agestusaria*/
@@ -2050,6 +2402,138 @@ body .lefto, .raito, .perkš, .Nazad {
   top: 260px;
   left: 410px;
   scale: 0.18;
+}
+
+.berge_kage{
+  top: 350px;
+  left: 1020px;
+  scale: 0.3;
+}
+
+.bert_stul{
+  top: 352px;
+  left: 662px;
+  scale: 0.26;
+}
+
+.Dog_eible{
+  top: 400px;
+  left: 946px;
+  scale: 0.3;
+}
+
+.Informator{
+  top: 203px;
+  left: 1209px;
+  scale: 0.2;
+}
+
+.ir_gan_borik{
+  top: 400px;
+  left: 676px;
+  scale: 0.27;
+}
+
+.maizite{
+  top: 330px;
+  left: 1090px;
+  scale: 0.3;
+}
+
+.Melachnijsdoms{
+  top: -80px;
+  left: 807px;
+  scale: 0.25;
+}
+
+.Nav_smieklihgi_jorik{
+  top: 450px;
+  left: 260px;
+  scale: 0.2;
+}
+
+.puishi_ka_es_izskatos{
+  top: 320px;
+  left: 291px;
+  scale: 0.2;
+}
+
+.pumpteken1{
+  top: 397px;
+  left: 993px;
+  scale: 0.2;
+}
+
+.pumpteken2{
+  top: 190px;
+  left: 770px;
+  scale: 0.14;
+}
+
+.pumpteken3{
+  top: -195px;
+  left: 655px;
+  scale: 0.1;
+}
+
+.sosao_dzirnavas{
+  top: 300px;
+  left: 1100px;
+  scale: 0.3;
+}
+
+.stoules{
+  top: 370px;
+  left: 610px;
+  scale: 0.3;
+}
+
+.Stulhka{
+  top: 350px;
+  left: 702px;
+  scale: 0.5;
+}
+
+.sun_fluve_stul{
+  top: 492px;
+  left: 296px;
+  scale: 0.4;
+}
+
+.Svecktur{
+  top: 341px;
+  left: 1243px;
+  scale: 0.6;
+}
+
+.Tod_stul{
+  top: 400px;
+  left: 1370px;
+  scale: 0.3;
+}
+
+.Varnus{
+  top: 300px;
+  left: 820px;
+  scale: 0.2;
+}
+
+.zelogi{
+  top: 155px;
+  left: 800px;
+  scale: 0.1;
+}
+
+.ziluks{
+  top: 340px;
+  left: 1060px;
+  scale: 0.1;
+}
+
+.korges{
+  top: 30px;
+  left: -125px;
+  scale: 0.07;
 }
 
 /*Adito*/
@@ -2130,4 +2614,46 @@ body .lefto, .raito, .perkš, .Nazad {
   top: -160px;
   left: 482px;
   scale: 0.07;
+}
+
+.beee_kortina{
+  top: -100px;
+  left: 257px;
+  scale: 0.3;
+}
+
+.foughts{
+  top: -120px;
+  left: 917px;
+  scale: 0.07;
+}
+
+.Lampus_normatus{
+  top: -91px;
+  left: 956px;
+  scale: 0.2;
+}
+
+.mr_egg_painting{
+  top: -436px;
+  left: 430px;
+  scale: 0.16;
+}
+
+.paklajes_uzasnekos_dimensiogos{
+  top: 690px;
+  left: 640px;
+  scale: 1;
+}
+
+.zerkolece{
+  top: 60px;
+  left: 414px;
+  scale: 0.1;
+}
+
+.lustra{
+  top: 28px;
+  left: 825px;
+  scale: 1;
 }
