@@ -394,6 +394,12 @@ body .lefto, .raito, .perkš, .Nazad {
   scale: 0.4;
 }
 
+.pikus_aksey {
+  top: 110px;
+  left: 660px;
+  scale: 0.08;
+}
+
 /*Inahose*/
 
 .bd {
@@ -1271,6 +1277,12 @@ body .lefto, .raito, .perkš, .Nazad {
   height: 800px;
 }
 
+.cepka{
+  top: 20px;
+  left: 930px;
+  scale: 0.2;
+}
+
 /*berns*/
 
 .Bird_not_plant{
@@ -1361,6 +1373,36 @@ body .lefto, .raito, .perkš, .Nazad {
   top: -85px;
   left: 787px;
   scale: 0.2;
+}
+
+.metal_boshka_kruta{
+  top: 400px;
+  left: 660px;
+  scale: 0.27;
+}
+
+.Prosto_felha{
+  top: 220px;
+  left: 1080px;
+  scale: 0.25;
+}
+
+.Svistulha{
+  top: 220px;
+  left: 100px;
+  scale: 0.05;
+}
+
+.vizh_uka{
+  top: 460px;
+  left: 510px;
+  scale: 0.2;
+}
+
+.wrum_wrumka{
+  top: 450px;
+  left: 1300px;
+  scale: 0.8;
 }
 
 /*BeldeDurvis*/
@@ -1561,6 +1603,286 @@ body .lefto, .raito, .perkš, .Nazad {
   pointer-events: none;  
   opacity: 0;
   transition: opacity 3s cubic-bezier(0.42, 0, 1, 1);
+}
+
+/*Ingenrompa*/
+
+.logs{
+  top: 153px;
+  left: 305px;
+  width: 152px;
+  height: 398px;
+}
+
+.Akardions {
+  top: 320px;
+  left: 880px;
+  scale: 0.26;
+}
+
+.beeeeejesity {
+  top: 370px;
+  left: 1250px;
+  scale: 0.3;
+}
+
+.Bodya {
+  top: 320px;
+  left: 492px;
+  scale: 0.2;
+}
+
+.Chasen {
+  top: -30px;
+  left: 720px;
+  scale: 0.2;
+}
+
+.chasi_morfeja {
+  top: -30px;
+  left: 660px;
+  scale: 0.15;
+}
+
+.chipiki {
+  top: 200px;
+  left: 1090px;
+  scale: 0.1;
+}
+
+.Creep {
+  top: 390px;
+  left: 1270px;
+  scale: 0.3;
+}
+
+.dalitajs {
+  top: 70px;
+  left: 410px;
+  scale: 0.15;
+}
+
+.duncis {
+  top: 100px;
+  left: 1000px;
+  scale: 0.3;
+}
+
+.furnature_skapiti {
+  top: -60px;
+  left: -150px;
+  scale: 0.3;
+}
+
+.furshet {
+  top: -50px;
+  left: 1290px;
+  scale: 0.2;
+}
+
+.galdus_mazus {
+  top: 400px;
+  left: 1360px;
+  scale: 0.6;
+}
+
+.game_thingy {
+  top: -120px;
+  left: 420px;
+  scale: 0.1;
+}
+
+.Greenich_wizards {
+  top: -149px;
+  left: 1460px;
+  scale: 0.2;
+}
+
+.globus_merkus {
+  top: -470px;
+  left: 370px;
+  scale: 0.1;
+}
+
+.Golem_dubby {
+  top: 130px;
+  left: 1340px;
+  scale: 0.3;
+}
+
+.golem_mama {
+  top: -202px;
+  left: 1282px;
+  scale: 0.1;
+}
+
+.golem_tata_i_brata {
+  top: -60px;
+  left: 1330px;
+  scale: 0.2;
+}
+
+.goto_planto {
+  top: -83px;
+  left: 400px;
+  scale: 0.1;
+}
+
+.gramatula_stanti {
+  top: 260px;
+  left: 190px;
+  scale: 0.4;
+}
+
+.gribus_lampus {
+  top: -80px;
+  left: 450px;
+  scale: 0.1;
+}
+
+.Gultinsh {
+  top: 390px;
+  left: 930px;
+  scale: 0.8;
+}
+
+.kemme {
+  top: 141px;
+  left: 370px;
+  scale: 0.07;
+}
+
+.kris {
+  top: 390px;
+  left: 1170px;
+  scale: 0.2;
+}
+
+.liekus-lietus_shetus {
+  top: -280px;
+  left: 400px;
+  scale: 0.34;
+  transform: perspective(500px) rotateY(13deg);
+}
+
+.liekus-lietus_shetus1 {
+  top: -280px;
+  left: 400px;
+  scale: 0.34;
+  transform: perspective(500px) rotateY(13deg);
+}
+
+.nochnik_tumba {
+  top: 270px;
+  left: 370px;
+  scale: 0.4;
+}
+
+.Paklajs_skaistis {
+  top: 390px;
+  left: 870px;
+  scale: 0.5;
+  transform: perspective(500px) rotateX(49deg);
+}
+
+.pepersheiker_and_tarbis {
+  top: -290px;
+  left: 220px;
+  scale: 0.06;
+}
+
+.Pisaa_aparata {
+  top: 70px;
+  left: 460px;
+  scale: 0.1;
+}
+
+.Polushkanha {
+  top: 220px;
+  left: 1290px;
+  scale: 0.6;
+  transform: perspective(200px) rotateX(20deg) rotateY(-25deg);
+}
+
+.ralses {
+  top: 170px;
+  left: 972px;
+  scale: 0.1;
+}
+
+.Redus_demanug_et_brojers {
+  top: -130px;
+  left: 1230px;
+  scale: 0.15;
+  rotate: -9deg;
+}
+
+.Shkafs_importantei {
+  top: -130px;
+  left: 1120px;
+  scale: 0.25;
+}
+
+.Slim_slam {
+  top: 340px;
+  left: 1090px;
+  scale: 0.15;
+}
+
+.smolometr {
+  top: 150px;
+  left: 400px;
+  scale: 0.3;
+}
+
+.Sumka_umka {
+  top: 10px;
+  left: 840px;
+  scale: 0.14;
+}
+
+.Telefonians {
+  top: -20px;
+  left: 840px;
+  scale: 0.1;
+}
+
+.Toyjouta {
+  top: 60px;
+  left: 940px;
+  scale: 0.06;
+}
+
+.truth_and_nolage {
+  top: -270px;
+  left: 520px;
+  scale: 0.06;
+}
+
+.undermaindu_cietums {
+  top: -300px;
+  left: 1110px;
+  scale: 0.1;
+}
+
+/*logsSpoks*/
+
+.moonuel1 {
+  top: 200px;
+  left: 950px;
+  scale: 0.3;
+}
+
+.moonuel2 {
+  top: 0px;
+  left: 563px;
+  scale: 0.3;
+}
+
+.moonuel3 {
+  top: 400px;
+  left: 330px;
+  scale: 0.3;
 }
 
 /*Potolokes*/
@@ -2136,6 +2458,12 @@ body .lefto, .raito, .perkš, .Nazad {
   left: 8.2%;
   scale: 45%;
   transform: perspective(500px) rotateY(35deg);
+}
+
+.kounai{
+  top: 260px;
+  left: 200px;
+  scale: 0.2;
 }
 
 /*Kitcanet*/
