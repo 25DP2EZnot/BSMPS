@@ -1,0 +1,85 @@
+body{
+  margin: 0%;
+  background-image: url("IMG/Arturs_arus/cosmium.png");
+  background-size: 11%;
+  background-repeat: repeat;
+}
+
+body img, a {
+  position: fixed;
+  top: 41%;
+  left: 36%;
+}
+
+.CloseClose {
+  top: -460px;
+  left: 1190px;
+  scale: 0.45;
+  width: 843px;
+  height: 1875px;
+}
+
+.AtvClose {
+  top: 700px;
+  left: 1230px;
+  scale: 0.45;
+  width: 767px;
+  height: 264px;
+}
+
+#Spabis, #Atilkne {
+    cursor: pointer;
+}
+
+.Bookface1 {
+  top: 0px;
+  left: 0px;
+  scale: 0.1;
+}
+
+.Bookface2 {
+  top: 0px;
+  left: 0px;
+  scale: 0.1;
+}
+
+.Bookface3 {
+  top: 0px;
+  left: 0px;
+  scale: 0.1;
+}
+
+.Bookface4 {
+  top: 0px;
+  left: 0px;
+  scale: 0.1;
+}
+
+.BooksIDKsomen {
+  top: 0px;
+  left: 0px;
+  scale: 0.1;
+}
+
+.Letoutme {
+  top: 491px;
+  left: 1393px;
+  scale: 0.1;
+}
+
+#HandyDandy {
+    display: none;
+    position: relative;
+}
+
+.Re_lid_juice {
+  top: 0px;
+  left: 0px;
+  scale: 0.1;
+}
+
+.unintrestoboko {
+  top: 0px;
+  left: 0px;
+  scale: 0.1;
+}

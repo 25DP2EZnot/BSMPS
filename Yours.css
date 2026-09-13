@@ -36,6 +36,10 @@ body div img, a {
   height: 0;
 }
 
+[data-InterAkebl]:hover {
+    filter: brightness(1.3);
+}
+
 /*Controls*/
 
 body .lefto, .raito, .perkš, .Nazad {

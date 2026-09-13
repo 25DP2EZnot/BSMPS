@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="Hizz.css">
     <title>BSMP</title>
     <script src="Cosm.js" defer></script>
 </head>
-<body>  
+<body>
+    <img id="Spabis" src="IMG/Worm_houses/CloseClose.png" class="CloseClose" 
+    onclick="changeImage('Spabis', 'IMG/Worm_houses/CloseClose.png', 'IMG/Worm_houses/OpenOpen.png',
+        '-460px', '1190px', '843px', '1875px',
+        '-471px', '1151px', '999px', '1920px'
+    )">
+
+    <img id="Atilkne" src="IMG/Worm_houses/AtvClose.png" class="AtvClose" 
+    onclick="changeImage('Atilkne', 'IMG/Worm_houses/AtvClose.png', 'IMG/Worm_houses/AtvOpen.png',
+        '700px', '1230px', '767px', '264px',
+        '700px', '1230px', '767px', '264px'
+    )">
+
+    <img id="HandyDandy" src="IMG/Worm_houses/Letoutme.png" class="Letoutme">
+
+    <!-- <img src="IMG/Worm_houses/Bookface1.png" class="Bookface1">
+     
+    <img src="IMG/Worm_houses/Bookface2.png" class="Bookface2">
+
+    <img src="IMG/Worm_houses/Bookface3.png" class="Bookface3">
+     
+    <img src="IMG/Worm_houses/Bookface4.png" class="Bookface4">
+     
+    <img src="IMG/Worm_houses/BooksIDKsomen.png" class="BooksIDKsomen">
+
+    <img src="IMG/Worm_houses/Re_lid_juice.png" class="Re_lid_juice">
+     
+    <img src="IMG/Worm_houses/unintrestoboko.png" class="unintrestoboko"> -->
+     
+    <img src="" class="">
+     
+    <img src="" class="">
+     
     <!-- <img src="" class=""> -->
+     
+    
 
 </body>
+<script>
+let LetOut = false;
+
+const audios = [
+    "AUD/Wormwood/Knock1.mp3",
+    "AUD/Wormwood/Knock2.mp3",
+    "AUD/Wormwood/Knock3.mp3",
+    "AUD/Wormwood/Knock4.mp3"
+];
+
+let audio = new Audio();
+function PlayRandomAudio() {
+    if (LetOut) return;
+    let random = Math.floor(Math.random() * 4);
+    audio.src = audios[random];
+    audio.play();
+    audio.onended = function() {
+        PlayRandomAudio();
+    };
+}
+PlayRandomAudio();
+</script>
 </html>
